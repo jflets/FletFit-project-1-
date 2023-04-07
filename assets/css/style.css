@@ -12,9 +12,14 @@ body {
     color: #d0dad4;
 }
 
-h1 {
+h1, h2 {
     letter-spacing: 1px;
-    color: #b0431f;
+    color: #ec6f45;
+}
+
+header {
+    height: 70px;
+    background-color: #222222;
 }
 
 #logo {
@@ -22,4 +27,30 @@ h1 {
     font-size: 250%;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    float: right;
+}
+#logo #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #ec6f45;
+    border-bottom: 1px solid #ec6f45;
 }
