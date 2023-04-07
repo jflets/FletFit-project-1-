@@ -5,3 +5,21 @@
     padding: 0;
     border: none;
 }
+
+body {
+    font-family: syne, sans-serif;
+    font-weight: 200;
+    color: #d0dad4;
+}
+
+h1 {
+    letter-spacing: 1px;
+    color: #b0431f;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
