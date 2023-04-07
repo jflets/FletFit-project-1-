@@ -14,12 +14,12 @@ body {
 
 h1 {
     letter-spacing: 1px;
-    color: #ec6f45;
+    
 }
 
 header {
     height: 70px;
-    background-color: #222222;
+    background-color: #0f0f0f;
 }
 
 #logo {
@@ -27,6 +27,11 @@ header {
     font-size: 250%;
     margin-left: 20px;
     margin-top: 10px;
+    text-transform: uppercase;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #ec6f45;
 }
 
 #menu {
@@ -63,7 +68,7 @@ header {
 }
 
 #cover-text, #cover-text h2 {
-    color: #ec6f45;
+    color: #d0dad4;
 }
 
 #hero-image {
