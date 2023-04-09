@@ -103,3 +103,34 @@ header {
 
     position: absolute;
 }
+
+#join-button button {
+    font-family: syne, sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ec6f45;
+
+    width: 250px;
+    height: 75px;
+    
+    border: 2px solid #0f0f0f;
+    border-radius: 30px;
+
+    background-color: #d0dad4;
+
+    bottom: 200px;
+    right: 100px;
+
+    box-shadow: -0.2em 0.2em 0.02em #ec6f45;
+
+    position: absolute;
+}
+
+#join-button button:hover {
+    color: #d0dad4;
+
+    background-color: #ec6f45;
+
+    box-shadow: -0.2em 0.2em 0.02em #d0dad4;
+}
