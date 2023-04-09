@@ -158,3 +158,55 @@ header {
     margin-left: 50px;
 }
 
+#girl-working-out {
+    width: 19%;
+    height: 300px;
+    margin-top: 20px;
+    float: right;
+    
+    right: 300px;
+
+    position: absolute;
+}
+
+#girl-working-out img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+#man-doing-ropes {
+    width: 13%;
+    height: 200px;
+    float: right;
+    
+    right: 190px;
+
+    position: absolute;
+}
+
+#man-doing-ropes img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+#man-on-bars {
+    width: 10%;
+    height: 150px;
+    margin-top: 220px;
+    float: right;
+    
+    right: 250px;
+
+    position: absolute;
+}
+
+#man-on-bars img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
