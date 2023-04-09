@@ -133,3 +133,28 @@ header {
 
     box-shadow: -0.2em 0.2em 0.02em #d0dad4;
 }
+
+#about-us {
+    height: 500px;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+
+#about-us-heading {
+    font-size: 300%;
+    text-transform: capitalize;
+    text-align: center;
+
+    padding-top: 20px;
+    
+    margin-bottom: 30px;
+}
+
+#left-about {
+    width: 33%;
+    margin-top: 30px;
+    float: left;
+    
+    margin-left: 50px;
+}
+
