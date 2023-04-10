@@ -78,13 +78,10 @@ header {
 }
 
 #hero-image {
+    width: 100%;
     height: 500px;
-    width: 100%;
-}
-
-#hero-image img {
-    width: 100%;
-    height: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center;
+    background-size: cover;
 }
 
 #cover-text {
@@ -92,14 +89,14 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    width: 500px;
-    height: 150px;
+    width: 50%;
+    height: 15%;
 
     padding-top: 5px;
     padding-left: 5px;
 
-    bottom: 230px;
-    left: 100px;
+    bottom: 60%;
+    left: 10%;
 
     position: absolute;
 }
@@ -111,8 +108,8 @@ header {
     font-weight: 700;
     color: #dc4d40;
 
-    width: 250px;
-    height: 75px;
+    width: 25%;
+    height: 10%;
     
     border-radius: 30px;
 
@@ -135,7 +132,7 @@ header {
 }
 
 #about-us {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: #0f0f0f;
 }
@@ -151,64 +148,30 @@ header {
 }
 
 #left-about {
-    font-size: 16px;
+    font-size: 100%;
     width: 35%;
-    height: 300px;
-    margin-top: 20px;
+    height: 30%;
+    
     float: left;
     
-    margin-left: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
-#girl-working-out {
-    width: 19%;
-    height: 300px;
-    margin-top: 20px;
-    float: right;
-    
-    right: 300px;
+#about-images-outer {
+    width: 25%;
+    height: 80%;
 
-    position: absolute;
+    padding: 5px;
+
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+
+    margin-left: 55%;
+    margin-bottom: 5%;
 }
 
-#girl-working-out img {
+#about-images-outer img {
     width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
-}
-
-#man-doing-ropes {
-    width: 13%;
-    height: 200px;
-    float: right;
-    
-    right: 190px;
-
-    position: absolute;
-}
-
-#man-doing-ropes img {
-    width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
-}
-
-#man-on-bars {
-    width: 10%;
-    height: 150px;
-    margin-top: 220px;
-    float: right;
-    
-    right: 250px;
-
-    position: absolute;
-}
-
-#man-on-bars img {
-    width: 100%;
-    height: 100%;
-
-    border-radius: 10px;
 }
