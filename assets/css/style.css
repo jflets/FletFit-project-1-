@@ -166,10 +166,12 @@ header {
 
     line-height: 0;
     column-count: 2;
-    column-gap: 0;
+    column-gap: 0.5;
 
     margin-left: 55%;
     margin-bottom: 5%;
+
+    overflow: scroll;
 }
 
 #about-images-outer img {
