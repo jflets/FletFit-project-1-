@@ -18,15 +18,19 @@ h1 {
 }
 
 header {
-    height: 70px;
+    height: 75px;
+    width: 100%;
     background-color: #0f0f0f;
+    position: fixed;
+    z-index: 999;
+
 }
 
 #logo {
     float: left;
     font-size: 250%;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 2%;
+    margin-top: 1.2%;
     text-transform: uppercase;
 
     -webkit-text-fill-color: transparent;
@@ -51,7 +55,7 @@ header {
     float: left;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #menu a {
