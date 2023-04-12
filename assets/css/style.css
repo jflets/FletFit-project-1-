@@ -313,6 +313,14 @@ form h4 {
     height: 300px;
 }
 
+aside > h2 {
+    margin-bottom: 0.3em;
+}
+
+aside > p {
+    margin-bottom: 0.2em;
+}
+
 #contact-info {
     width: fit-content;
     height: auto;
