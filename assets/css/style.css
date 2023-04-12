@@ -337,4 +337,25 @@ footer {
     height: 75px;
 
     background-color: #0f0f0f;
+
+    display: flex;
+    align-items: center;
+}
+#footer-logo {
+    float: left;
+    margin: 0 30em 0 2em;
+    text-transform: uppercase;
+    color: #dc4d40;
+}
+
+.social-links > li {
+    display: inline;
+    margin-right: 20px;
+    
+
+}
+
+.social-links i {
+    font-size: 250%;
+    color: #d0dad4;
 }
