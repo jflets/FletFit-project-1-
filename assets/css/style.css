@@ -248,7 +248,17 @@ header {
     height: 1%;
     margin: 0 5px 10px;
     border: 1px solid #d0dad4;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: #d0dad4;
+    padding: 2px 5px;
+}
+
+.text-input:focus {
+   outline: 1px solid #dc4d40;
+}
+
+.text-input:hover {
+    border:1px solid #dc4d40;
 }
 
 #email {
@@ -258,6 +268,7 @@ header {
 
 #choose-plan {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
