@@ -10,10 +10,10 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 
 - _Navigation Bar_
 
- - The nav bar includes links to the Logo, Home section, Join Us section and Contact section. The nav bar is fixed and will follow the user as the scroll down the site, allowing for easy navigation.
- - The nav bar links also have smooth section scrolling, this will make the navigation experience more pleasing for the user.
+  - The nav bar includes links to the Logo, Home section, Join Us section and Contact section. The nav bar is fixed and will follow the user as the scroll down the site, allowing for easy navigation.
+  - The nav bar links also have smooth section scrolling, this will make the navigation experience more pleasing for the user.
 
 - _The landing page image_
 
- - The landing section includes a photograph with a text overlay to motivate a user into scrolling further on the site.
- - This section introduces the user to FletFit with contrasting text and a large join button to encourage the user to join.
+  - The landing section includes a photograph with a text overlay to motivate a user into scrolling further on the site.
+  - This section introduces the user to FletFit with contrasting text and a large join button to encourage the user to join.
