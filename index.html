@@ -73,8 +73,8 @@
         <form method="post" action="http://formdump.codeinstitute.net/">
             <h2 id="join-now">Join Now!</h2>
            <div id="main-input">  
-            <label for="fname">First Name</label>
-            <input type="text" name="first_name" id="fname" required class="text-input" aria-label="first name">
+            <label for="fname"></label>
+            <input type="text" name="first_name" id="fname" placeholder="First Name" required class="text-input" aria-label="first name">
 
             <label for="lname">Last Name</label>
             <input type="text" name="last_name" id="lname" required class="text-input" aria-label="last name">
@@ -84,14 +84,14 @@
            </div>
            <div id="choose-plan">
             <h4>Choose plan</h4>
-            <label for="plan1">Plan 1</label>
-            <input type="checkbox" name="plan_1" id="plan" value="plan1" required aria-label="plan 1 checkbox" class="plan-input">
+            <label for="plan1">Plan 1</label class="plan-input">
+            <input type="radio" name="plan-checkbox" id="plan" value="plan1" required aria-label="plan 1 checkbox" class="plan-input">
 
-            <label for="plan2">Plan 2</label>
-            <input type="checkbox" name="plan_2" id="plan" value="plan1" required aria-label="plan 2 checkbox" class="plan-input">
+            <label for="plan2">Plan 2</label class="plan-input">
+            <input type="radio" name="plan-checkbox" id="plan" value="plan1" aria-label="plan 2 checkbox" class="plan-input">
 
-            <label for="plan3">Plan 3</label>
-            <input type="checkbox" name="plan_3" id="plan" value="plan1" required aria-label="plan 3 checkbox" class="plan-input">
+            <label for="plan3">Plan 3</label class="plan-input">
+            <input type="radio" name="plan-checkbox" id="plan" value="plan1" aria-label="plan 3 checkbox" class="plan-input">
 
             <input type="submit" value="Join!">
            </div>
