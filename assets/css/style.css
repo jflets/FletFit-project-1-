@@ -204,7 +204,7 @@ header {
 
     padding-top: 20px;
     
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #join-now {
@@ -237,21 +237,51 @@ header {
     box-shadow: -0.4em 0.4em 0.02em #dc4d40;
 }
  #main-input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    display: inline-block;
+    margin-left: 13%;
  }
 
 .text-input {
     background: transparent;
-    width: 20%;
+    width: 15%;
     height: 1%;
-    margin: 10px 5px;
+    margin: 0 5px 10px;
     border: 1px solid #d0dad4;
+    border-radius: 10px;
 }
+
+#email {
+    width: 25%;
+}
+
 
 #choose-plan {
     display: flex;
     justify-content: center;
+}
 
+.plan-input {
+    margin: 0 10px;
+    accent-color: #dc4d40;
+}
+
+form h4 {
+    margin-right: 10px;
+}
+
+#form-join-button {
+    width: fit-content;
+    height: auto;
+
+    font-size: 18px;
+    
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #0f0f0f;
+}
+
+#form-join-button:hover {
+    background-color: #dc4d40;
+    color: #d0dad4;
 }
