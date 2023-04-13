@@ -164,7 +164,7 @@ header {
 }
 
 #left-about {
-    font-size: 120%;
+    font-size: 115%;
     max-width: 25rem;
     min-height: 5rem;
     
@@ -176,7 +176,7 @@ header {
 }
 
 #about-images-outer {
-    max-width: 36rem;
+    max-width: 26rem;
     min-height: 15rem;
 
     padding: 1em;
@@ -186,7 +186,7 @@ header {
 }
 
 #about-images-outer img {
-    max-width: 11rem;
+    max-width: 9.5rem;
     border-radius: 20px;
 }
 
@@ -383,14 +383,10 @@ footer {
 @media screen and (min-width: 1200px) {
     #menu {
         font-size: 140%;
-        letter-spacing: 2px;
-        float: right;
     }
 
     #cover-text {
         font-size: 250%;
-        text-transform: uppercase;
-        letter-spacing: 2px;
     
         max-width: 50rem;
         min-height: 2rem;
@@ -400,38 +396,22 @@ footer {
     
         bottom: 18rem;
         left: 6rem;
-    
-        position: absolute;
     }
 
     #join-button button {
-        font-family: syne, sans-serif;
         font-size: 200%;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #dc4d40;
     
         padding: 0.5em 0.3em;
     
         max-width: 20rem;
         min-height: 3rem;
         
-        border-radius: 30px;
-    
-        background-color: #d0dad4;
-    
         bottom: 11rem;
         right: 6rem;
-    
-        box-shadow: -0.2em 0.2em 0.02em #dc4d40;
-    
-        position: absolute;
     }
 
     #about-us-heading {
         font-size: 400%;
-        text-transform: capitalize;
-        text-align: center;
     
         padding-top: 0.5em;
         
@@ -442,8 +422,6 @@ footer {
         font-size: 140%;
         max-width: 35rem;
         min-height: 5rem;
-        
-        float: left;
         
         margin-top: 2em;
         margin-left: 3em;
@@ -457,12 +435,46 @@ footer {
         padding: 1em;
         margin-left: 3em;
         margin-bottom: 3em;
-    
-        display: table;
     }
     
     #about-images-outer img {
         max-width: 11rem;
-        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #join-button button {
+        font-size: 120%;
+        padding: 0.2em;
+    }
+
+    #about-us {
+        min-height: 700px;
+        width: 100%;
+        background-color: #0f0f0f;
+    }
+
+    #left-about {
+        font-size: 110%;
+        max-width: 20rem;
+        min-height: 8rem;
+        
+        margin-top: 2em;
+        margin-left: 3em;
+        margin-right: 4em;
+    }
+    
+    #about-images-outer {
+        max-width: 20rem;
+        min-height: 15rem;
+    
+        padding: 1em;
+        margin-left: 3em;
+        margin-top: 3.5em;
+    
+    }
+    
+    #about-images-outer img {
+        max-width: 9rem;
     }
 }
