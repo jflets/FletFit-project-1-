@@ -362,3 +362,7 @@ footer {
     font-size: 250%;
     color: #d0dad4;
 }
+
+.social-links i:hover {
+    color: #dc4d40;
+}
