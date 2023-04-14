@@ -34,9 +34,7 @@
             <h2>Push yourself to a new level</h2>
         </div>
         <div id="join-button">
-            <a href="#join-section" aria-label="Takes you to our joining form">
-                <button>Join Now!</button>
-            </a>
+            <button onclick="window.location.href = '#join-section';">Join Now!</button>
         </div>
     </section>
     <section id="about-us">
@@ -92,10 +90,8 @@
            <div id="main-input">  
             <label for="fname" id="input-label-1">First Name</label>
             <input type="text" name="first_name" id="fname" placeholder="Enter First Name" required class="text-input" aria-label="first name">
-
             <label for="lname" id="input-label-2">Last Name</label>
             <input type="text" name="last_name" id="lname" placeholder="Enter Last Name" required class="text-input" aria-label="last name">
-
             <label for="email" id="input-label-3">Email</label>
             <input type="email" name="email" id="email" placeholder="Enter Email" required class="text-input" aria-label="email">
            </div>
@@ -103,13 +99,10 @@
             <h4>Choose plan</h4>
             <label for="plan-1">Plan 1</label class="plan-input">
             <input type="radio" name="plan-checkbox" id="plan-1" value="plan1" required aria-label="plan 1 checkbox" class="plan-input">
-
             <label for="plan-2">Plan 2</label class="plan-input">
             <input type="radio" name="plan-checkbox" id="plan-2" value="plan1" aria-label="plan 2 checkbox" class="plan-input">
-
             <label for="plan-3">Plan 3</label class="plan-input">
             <input type="radio" name="plan-checkbox" id="plan-3" value="plan1" aria-label="plan 3 checkbox" class="plan-input">
-
             <input type="submit" value="Join!" id="form-join-button" aria-label="Join button">
            </div>
         </form>
