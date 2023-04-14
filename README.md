@@ -6,7 +6,8 @@ Welcome to FletFit, your ultimate solution for fitness on the go! We bring the g
 
 At FletFit, we understand that life can be busy, and finding time to go to the gym may not always be easy. That's why we bring our high-performance gym experience to your doorstep. Our experienced trainers are dedicated to helping you improve yourself and reach your fitness aspirations, regardless of your location or level of experience.
 
-# Fetures
+![Responsive Mockup](/assets/images/responsive-mockup.png)
+## Fetures
 
 - _Navigation Bar_
 
