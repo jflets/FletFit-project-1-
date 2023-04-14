@@ -287,7 +287,6 @@ form {
     width: 25%;
 }
 
-
 #choose-plan {
     display: flex;
     align-items: center;
@@ -544,5 +543,251 @@ footer {
     
     #about-images-outer img {
         max-width: 7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        min-height: 75px;
+        max-width: 100%;
+        background-color: #0f0f0f;
+        position: fixed;
+        z-index: 999;
+        text-align: center;
+    }
+
+    header a {
+        text-decoration: none;
+    }
+    
+    #logo {
+        font-size: 200%;
+        margin: 0 0 0.2em 0;
+        float: unset;
+        padding: 0.2em;
+        
+    }
+
+    #menu {
+        min-height: 1em;
+        font-size: 120%;
+        letter-spacing: 2px;
+        float: none;
+        display: flex;
+        justify-content: center;
+
+        padding: 0.5em;
+    }
+    
+    #menu li {
+        list-style-type: none;
+        margin: 0 0.8em 0 0.8em;
+    }
+
+    #cover-text {
+        font-size: 132%;
+    
+        max-width: 25rem;
+        min-height: 1rem;
+    
+        padding-top: 0.2em;
+        padding-left: 0.2em;
+    
+        bottom: 18rem;
+        left: 1rem;
+    }
+
+    #join-button button {
+        font-size: 150%;
+    
+        padding: 0.5em 0.3em;
+    
+        max-width: 20rem;
+        min-height: 3rem;
+
+        bottom: 2em;
+        left: 2.2em;
+    }
+
+    #about-us {
+        min-height: 700px;
+        width: 100%;
+        background-color: #0f0f0f;
+    }
+
+    #about-us-heading {
+        font-size: 200%;
+    
+        padding-top: 0.5em;
+        
+        margin-bottom: 0.3em;
+    }
+
+    #left-about {
+        text-align: center;
+        font-size: 110%;
+        max-width: 35rem;
+        min-height: 8rem;
+        
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+    #about-images-outer {
+        max-width: 40rem;
+        min-height: 15rem;
+    
+        padding: 1.5em;
+        margin-left: 4em;
+        margin-top: 3.5em;
+
+        display: inline-block;
+    }
+    
+    #about-images-outer img {
+        max-width: 7rem;
+    }
+
+    #join-section {
+        min-height: 600px;
+        max-width: 100%;
+        padding: 1em 0.2em 3em 0.2em;
+    }
+
+    #join-section h2 {
+        font-size: 200%;
+        
+        margin-bottom: 0.05em;
+    }
+
+    #plans-wrapper {
+        max-width: 100%;
+        min-height: 5em;
+        
+        display: inline-block;
+    
+        padding: 0.2em;
+        margin-top: 1em;
+    }
+    
+    .plan-card {
+        width: auto;
+        min-height: 5em;
+        
+        padding: 0.5em 0 0 0;
+        text-align: center;
+
+        margin-bottom: 2em;
+    
+    }
+    
+    .plan-card h3 {
+        border-bottom: 2px solid #d0dad4;
+        padding-bottom: 3px;
+    }
+    
+    .plan-card ul{
+        padding: 1.5em 1.5em 0 1.5em;
+        font-size: 15px;
+        text-align: left;
+        line-height: 1.5em;
+    }
+    
+    .plan-card h4 {
+        padding: 1em;
+    }
+
+    form {
+        max-width: 100%;
+        min-height: 12rem;
+        margin-top: 2em;
+        padding: 2em;
+        background-color: #0f0f0f;
+        border-radius: 2%;
+
+    }
+    
+     #main-input {
+        max-width: 100%;
+        min-height: 4em;
+        display: block;
+     }
+
+     #input-label {
+        margin-right: 2em;
+     }
+    
+    .text-input {
+        width: 100%;
+        min-height: 1.2em;
+        margin: 1em 0;
+        padding: 0.2em 0.3em;
+    }
+    
+    #email {
+        width: 100%;
+    }
+    
+    #choose-plan {
+        display: block;
+
+    }
+    
+    .plan-input {
+        margin: 0.5em 0.5em;
+    }
+    
+    form h4 {
+        font-size: 16px;
+        margin-right: 1.2em;
+    }
+    
+    #form-join-button {
+        width: fit-content;
+        height: auto;
+    
+        font-size: 18px;
+        
+        padding: 3px 15px;
+    }
+
+    #contact-us {
+        max-height: 150px;
+
+    }
+
+    aside > h2 {
+        font-size: 110%;
+        margin-bottom: 0.3em;
+    }
+
+    aside > h4 {
+        display: block;
+        font-size: 80%;
+        margin-right: 0.2em;
+    }
+    
+    aside > p {
+        display: inline;
+        font-size: 100%;
+    }
+    
+    #contact-info {
+        max-width: 100%;
+        max-height: 150px;
+    
+        padding: 0.6em;
+        margin-top: 0.5em;
+    
+        background-color: rgba(15, 15, 15, 0.8);
+        border-radius: unset;
+
+        display: block;
+        position: static;
+    }
+
+    #map {
+        display: none;
     }
 }
