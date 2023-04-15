@@ -60,3 +60,15 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 
 # Testing
 
+
+
+
+## Validator Testing
+
+- _HTML_
+
+  - No errors or warnings returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjflets.github.io%2FFletFit-project-1-%2F)
+
+- _CSS_
+
+  - No errors or warnings returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjflets.github.io%2FFletFit-project-1-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
