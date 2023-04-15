@@ -30,21 +30,21 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 
   ![About Us Section](/assets/images/about-us-section.png)
 
--_Join Section_
+- _Join Section_
 
   - The join section will allow the user to see the different fitness plans available and allow them to sign up through a form.
   - The user will understand what each plan provides and will understand the steps to fill out the form.
 
   ![Join Section](/assets/images/join-section.png)
 
--_Contact Us Section_
+- _Contact Us Section_
 
   - The contact us section will allow the user to see the location of FletFit and the contact information to get in touch.
   - The user will be able to easily find FletFit using the map and contact information is clear. This will motivate a user to contact FletFit for more information.
 
   ![Contact Section](/assets/images/contact-us-section.png)
 
--_The Footer_
+- _The Footer_
 
   - The footer section includes social links and another clickable logo. The links will open in a new tab allowing easy navigation. The clickable logo takes the user back up to the landing page section for easy navigation.
   - The footer is valuable to the user as it encourages them to connect via social media. The footer also allows fast easy navigation back to the landing page section.
