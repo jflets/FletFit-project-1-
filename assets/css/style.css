@@ -320,11 +320,11 @@ form h4 {
     height: 20rem;
 }
 
-aside > h2 {
+#contact-info > h2 {
     margin-bottom: 0.3em;
 }
 
-aside > p {
+#contact-info > p {
     margin-bottom: 0.2em;
 }
 
@@ -758,18 +758,19 @@ footer {
 
     }
 
-    aside > h2 {
+    #contact-info > h2 {
         font-size: 110%;
         margin-bottom: 0.3em;
     }
 
-    aside > h4 {
+    #contact-info > h4 {
         display: block;
         font-size: 80%;
         margin-right: 0.2em;
+        line-height: 1.8em;
     }
     
-    aside > p {
+    #contact-info> p {
         display: inline;
         font-size: 100%;
     }
