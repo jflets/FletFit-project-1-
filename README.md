@@ -86,3 +86,17 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
   - once selected press save and the page will automatically refresh with a detailed banner om the top to indicate successful deployment.
 
 The live link can be found here - https://jflets.github.io/FletFit-project-1-/
+
+# Credits
+
+## Content
+
+ - The navigation menu and footer design was taken from [Code Institute](https://code-institute-org.github.io/love-running-2.0/index.html)
+ - The form implementation was taken from [Code Institute](https://code-institute-org.github.io/love-running-2.0/index.html)
+ - The icons in the footer where taken from [Font Awesome](https://fontawesome.com/)
+ - The embedded google maps section implementation was taken from [YouTube](https://youtu.be/inkP0lstoxU)
+ - The text shadow implementation was taken form [Youtube](https://youtu.be/lP0VWUUW-Vs)
+
+## Media
+
+ - All photos on the site where taken from [Unsplash](https://unsplash.com/s/photos/gym)
