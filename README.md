@@ -61,7 +61,7 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 # Testing
 
  ## Accessibility Testing
- 
+
    - The site has a heigh accessibility score ensuring that the site can be accessed easily by screen readers.
 
    ![Accessibility Score](/assets/images/Accessibility-score.png)
@@ -76,3 +76,13 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 
 ## Unfixed Bugs
 
+
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, go to the Settings tab.
+  - Scroll down the page to pages, then navigate to the branch dropdown menu. 
+  - From the menu select main/master branch.
+  - once selected press save and the page will automatically refresh with a detailed banner om the top to indicate successful deployment.
+
+The live link can be found here - https://jflets.github.io/FletFit-project-1-/
