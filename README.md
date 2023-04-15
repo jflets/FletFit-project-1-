@@ -32,15 +32,15 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 
 - _Join Section_
 
-  - The join section will allow the user to see the different fitness plans available and allow them to sign up through a form.
-  - The user will understand what each plan provides and will understand the steps to fill out the form.
+  - The join section will allow the user to see the different fitness plans available and allow them to sign up through a form. The user will be able to specify what plan they will want plan 1, plan 2 or plan 3.
+  - The join section is valuable as the user will understand what each plan provides and will understand the steps to fill out the form.
 
   ![Join Section](/assets/images/join-section.png)
 
 - _Contact Us Section_
 
   - The contact us section will allow the user to see the location of FletFit and the contact information to get in touch.
-  - The user will be able to easily find FletFit using the map and contact information is clear. This will motivate a user to contact FletFit for more information.
+  - The contact us section is valuable as the user will be able to easily find FletFit using the map and contact information is clear. This will motivate a user to contact FletFit for more information.
 
   ![Contact Section](/assets/images/contact-us-section.png)
 
@@ -50,3 +50,13 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
   - The footer is valuable to the user as it encourages them to connect via social media. The footer also allows fast easy navigation back to the landing page section.
 
   ![Footer](/assets/images/footer.png)
+
+## Features Left to Implement
+
+- _Testimonial Section_
+  
+  - The testimonial section would allow a user to read positive reviews for FletFit from active users.
+  - The testimonial section is valuable to a user as they will gain confidence that FletFit will help them.
+
+# Testing
+
