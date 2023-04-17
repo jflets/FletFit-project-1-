@@ -60,7 +60,11 @@ At FletFit, we understand that life can be busy, and finding time to go to the g
 
 # Testing
 
- ## Accessibility Testing
+## Screen Size Testing
+ 
+  - I used chrome developer tools to make sure that the site was responsive and worked on multiple screen sizes.
+
+## Accessibility Testing
 
    - The site has a heigh accessibility score ensuring that the site can be accessed easily by screen readers.
 

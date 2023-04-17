@@ -379,34 +379,235 @@ footer {
 .social-links i:hover {
     color: #dc4d40;
 }
+@media screen and (min-width: 1441px) {
+    #home {
+        min-height: 600px;
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
 
-@media screen and (min-width: 1200px) {
+    #hero-image {
+        width: 100%;
+        min-height: 600px;
+        background: url(../images/hero-image.webp) no-repeat center center;
+        background-size: cover;
+    }
+
     #menu {
         font-size: 140%;
     }
 
     #cover-text {
-        font-size: 250%;
+        font-size: 350%;
     
-        max-width: 50rem;
-        min-height: 2rem;
+        min-width: 50rem;
+        min-height: 25rem;
     
         padding-top: 5px;
         padding-left: 5px;
     
-        bottom: 18rem;
+        top: 10rem;
         left: 6rem;
+
+        display: inline;
     }
 
     #join-button button {
-        font-size: 200%;
+        font-size: 250%;
     
         padding: 0.5em 0.3em;
     
-        max-width: 20rem;
+        max-width: 30rem;
         min-height: 3rem;
 
-        bottom: 11rem;
+        bottom: 13rem;
+        right: 6rem;
+    }
+
+    #about-us {
+        min-height: 700px;
+        width: 100%;
+    }
+
+    #about-us-heading {
+        font-size: 400%;
+    
+        padding-top: 0.5em;
+        
+        margin-bottom: 0.5em;
+    }
+
+    #left-about {
+        font-size: 180%;
+        max-width: 70rem;
+        min-height: 5rem;
+        
+        margin-top: 1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-bottom: 1em;
+
+        position: relative;
+    }
+    
+    #about-images-outer {
+        max-width: 60rem;
+        min-height: 15rem;
+    
+        padding: 0.2;
+        margin-top: 4em;
+        margin-bottom: 2em;
+
+    }
+    
+    #about-images-outer img {
+        max-width: 15rem;
+    }
+
+    #join-section {
+        max-height: 700px;
+    }
+
+    #join-section h2 {
+        font-size: 400%;
+    
+        padding: 20px;
+        
+        margin-bottom: 10px;
+    }
+
+    #plans-wrapper {
+        max-width: 100%;
+        min-height: 18em;
+        
+        display: flex;
+        justify-content: center;
+    
+        padding: 0.5em;
+        margin-top: 1em;
+
+        border: 1px solid red;
+    }
+    
+    .plan-card {
+        width: 30em;
+        min-height: 16em;
+    
+        margin: 0 10px;
+        
+        padding: 0.5em 0 0 0;
+        text-align: center;
+    
+        border-radius: 20px;
+        box-sizing: border-box;
+    
+    }
+    
+    .plan-card h3 {
+        border-bottom: 2px solid #d0dad4;
+        padding-bottom: 3px;
+    }
+    
+    .plan-card ul{
+        padding: 1.5em 1.5em 0 1.5em;
+        font-size: 15px;
+        text-align: left;
+        line-height: 1.5em;
+    }
+    
+    .plan-card h4 {
+        padding: 1em;
+    }
+
+    #contact-us {
+        max-width: 100%;
+        height: 500px;
+    }
+
+    #contact-info > h2 {
+        font-size: 40px;
+        margin-bottom: 0.3em;
+    }
+    
+    #contact-info > h4 {
+        font-size: 30px;
+    }
+
+    #contact-info > p {
+        font-size: 25px;
+        margin-bottom: 0.2em;
+    }
+    
+    #contact-info {
+        width: fit-content;
+        height: auto;
+    
+        padding: 1em;
+        margin-top: 3em;
+    
+        background-color: rgba(15, 15, 15, 0.8);
+        border-radius: 4%;
+        position: absolute;
+    
+        right: 10em;
+        
+    }
+    
+    #map {
+        overflow: hidden;
+    }
+    
+    #map iframe {
+        min-height: 500px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1440px) {
+
+    #home {
+        min-height: 600px;
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #hero-image {
+        width: 100%;
+        min-height: 600px;
+        background: url(../images/hero-image.webp) no-repeat center center;
+        background-size: cover;
+    }
+
+    #menu {
+        font-size: 140%;
+    }
+
+    #cover-text {
+        font-size: 300%;
+    
+        min-width: 50rem;
+        min-height: 25rem;
+    
+        padding-top: 5px;
+        padding-left: 5px;
+    
+        top: 10rem;
+        left: 6rem;
+
+        display: inline;
+    }
+
+    #join-button button {
+        font-size: 250%;
+    
+        padding: 0.5em 0.3em;
+    
+        max-width: 30rem;
+        min-height: 3rem;
+
+        bottom: 13rem;
         right: 6rem;
     }
 
