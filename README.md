@@ -50,7 +50,7 @@ The Images used are copyright free images and I have credited the site in the cr
 
 The wireframe was created for the overall site using [Figma](https://www.figma.com)
 
-![Wireframe](/assets/images/wireframe.png)
+![Wireframe](/assets/images/wireframe2.png)
 
 # Features
 
