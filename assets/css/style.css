@@ -167,26 +167,26 @@ header {
 }
 /* Join section */
 #join-section {
-    min-height: 600px;
+    min-height: 800px;
     max-width: 100%;
     background-color: #454746;
-    padding: 1em 0 3em 0;
+    padding: 1em 0 8em 0;
 }
 
 #join-section h2 {
     text-align: center;
     font-size: 300%;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0.1em;
 }
 
 #plans-wrapper {
     max-width: 90rem;
-    min-height: 15em;
+    min-height: 20em;
     display: flex;
     justify-content: center;
-    padding: 0.5em;
-    margin-top: 2em;
+    padding: 0.8em;
+    margin: 0 0 5em 0;
 }
 
 .plan-card {
@@ -218,29 +218,29 @@ header {
 }
 /* Join form */
 form {
-    max-width: 100%;
+    max-width: 80%;
     min-height: 10rem;
-    margin-top: 2em;
-    padding-bottom: 1em;
+    margin: 4em 5em 0 5em;
+    padding: 0 2em 1.5em 1.5em;
     background-color: #0f0f0f;
-    border-radius: 2%;
+    border-radius: 1em;
 }
 
  #main-input {
     max-width: 100%;
-    display: flex;
-    justify-content: center;
+    min-height: 4em;
+    display: block;
  }
 
 .text-input {
     background: transparent;
-    width: 15%;
-    height: 1%;
-    margin: 0 5px 10px;
+    width: 100%;
+    min-height: 1.2em;
+    margin: 1em 0;
     border: 1px solid #d0dad4;
     border-radius: 5px;
     color: #d0dad4;
-    padding: 2px 5px;
+    padding: 0.3em 0.3em;
 }
 
 .text-input:focus {
@@ -252,13 +252,14 @@ form {
 }
 
 #email {
-    width: 25%;
+    width: 100%;
 }
 
 #choose-plan {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .plan-input {
@@ -273,7 +274,7 @@ form h4 {
 #form-join-button {
     width: fit-content;
     height: auto;
-    font-size: 18px;
+    font-size: 22px;
     padding: 3px 15px;
     border-radius: 30px;
     color: #0f0f0f;
@@ -419,7 +420,7 @@ footer {
     }
 
     #join-section {
-        max-height: 700px;
+        max-height: 800px;
     }
 
     #join-section h2 {
@@ -435,18 +436,16 @@ footer {
         justify-content: center;
         padding: 0.5em;
         margin-top: 1em;
-        border: 1px solid red;
     }
     
     .plan-card {
-        width: 30em;
+        width: 40em;
         min-height: 16em;
         margin: 0 10px;
         padding: 0.5em 0 0 0;
         text-align: center;
         border-radius: 20px;
         box-sizing: border-box;
-    
     }
     
     .plan-card h3 {
@@ -456,13 +455,18 @@ footer {
     
     .plan-card ul{
         padding: 1.5em 1.5em 0 1.5em;
-        font-size: 15px;
+        font-size: 20px;
         text-align: left;
         line-height: 1.5em;
     }
     
     .plan-card h4 {
         padding: 1em;
+    }
+
+    form {
+        margin: 4em 15em 0 15em;
+        padding: 0 2em 1em 1em;
     }
 
     #contact-us {
@@ -571,6 +575,10 @@ footer {
     #about-images-outer img {
         max-width: 11rem;
     }
+
+    .plan-card ul{
+        font-size: 20px;
+    }
 }
 /* For medium screen sizes */
 @media screen and (max-width: 950px) {
@@ -662,6 +670,10 @@ footer {
     
     #about-images-outer img {
         max-width: 7rem;
+    }
+
+    #join-section h2 {
+        font-size: 250%;
     }
 }
 /* For mobile screen sizes */
@@ -801,11 +813,9 @@ footer {
     form {
         max-width: 100%;
         min-height: 12rem;
-        margin-top: 2em;
+        margin: 2em 0 0 0;
         padding: 2em;
         background-color: #0f0f0f;
-        border-radius: 2%;
-
     }
     
      #main-input {
