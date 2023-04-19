@@ -27,6 +27,8 @@ The site emphasizes the convenience and flexibility of having a personal trainer
 
   4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
 
+  5. As a first-time visitor, I want to be able to find the social links for FletFit easily.
+
 # Design
 
 ## Color Scheme
@@ -109,11 +111,11 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
  
   - I used chrome developer tools to make sure that the site was responsive and worked on multiple screen sizes.
 
-## Accessibility Testing
+## Lighthouse Testing
 
    - The site has a heigh accessibility score ensuring that the site can be accessed easily by screen readers.
 
-   ![Accessibility Score](/assets/images/Accessibility-score.png)
+   ![Lighthouse Score](/assets/images/Accessibility-score.png)
 
 ## Validator Testing
 
@@ -131,7 +133,17 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
   3. When running the HTML through the W3C HTML validator the embedded google map was coming up as having an "bad value" this was due to having a percentage sign within the iframe tag, the sizing for width and height. To fix this i gave the iframe width and height fixed sizing and the within the CSS stylesheet, I gave the map responsive sizing. This fixed the error in the W3C validator.
 
-  
+## Testing User Stories
+
+  1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
+
+  2. As a first-time visitor, I want to easily understand what FletFit offers and become a member, so that I can start achieving my fitness goals with expert guidance.
+
+  4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
+
+  5. As a first-time visitor, I want to be able to find the social links for FletFit easily. 
+
+  ![Social Links](/assets/images/footer.png)
 # Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
