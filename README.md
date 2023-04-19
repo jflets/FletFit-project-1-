@@ -123,9 +123,15 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 - _CSS_
   - No errors or warnings returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjflets.github.io%2FFletFit-project-1-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-## Unfixed Bugs
+## Solved Bugs
 
+  1. The navbar would lose its alignment when on smaller devices, the navigation buttons on the top right would overlap the logo and would render the navbar unusable. To fix this I referred back to the [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) and added a media query that would make the navigation links drop below the logo with adequate spacing to keep a good user experience.
 
+  2. The plan cards in the join section on smaller devices, would become very long and thin, making it hard to read and creating a bad user experience. By using a media query I was able to change the plan cards to display as inline-block to make the cards stack on top of each other, making them easy to read, providing a good user experience.
+
+  3. When running the HTML through the W3C HTML validator the embedded google map was coming up as having an "bad value" this was due to having a percentage sign within the iframe tag, the sizing for width and height. To fix this i gave the iframe width and height fixed sizing and the within the CSS stylesheet, I gave the map responsive sizing. This fixed the error in the W3C validator.
+
+  
 # Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
