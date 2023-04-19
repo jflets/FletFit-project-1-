@@ -2,12 +2,33 @@
 
 Welcome to FletFit, your ultimate solution for fitness on the go! We bring the gym to you with our mobile personal training services. Whether you're at home, at the office, or anywhere in Haywards Heath, West Sussex, UK, our expert trainers will come to your location, equipped with state-of-the-art fitness equipment, to help you achieve your fitness goals.
 
-## Elevate Your Fitness Game, Wherever You Are
-
-At FletFit, we understand that life can be busy, and finding time to go to the gym may not always be easy. That's why we bring our high-performance gym experience to your doorstep. Our experienced trainers are dedicated to helping you improve yourself and reach your fitness aspirations, regardless of your location or level of experience.
-
 ![Responsive Mockup](/assets/images/responsive-mockup.png)
-## Features
+
+# User Experience (UX)
+
+The FletFit website is the online platform for FletFit, a mobile personal training service. The website provides information about FletFit's personalized training plans that are tailored to meet individual fitness goals and levels. Visitors can learn about FletFit.
+
+The site emphasizes the convenience and flexibility of having a personal trainer come to you, wherever you are. Additionally, the website provides a contact form for those interested in learning more or signing up for a training plan. Overall, the FletFit website is a helpful resource for anyone seeking personalized mobile training services to enhance their fitness journey.
+
+## Key Points
+
+  - Information explaining what FletFit does.
+  - What are the plans we provide.
+  - A form to sign up and become a client.
+  - A way for users to contact FletFit with any questions.
+  - A way to easily find FletFit through an embedded map.
+## User Stories
+
+  1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
+
+  2. As a first-time visitor, I want to easily understand what FletFit offers and become a member, so that I can start achieving my fitness goals with expert guidance.
+
+  3. As a first-time visitor, I want to navigate the site without difficulty and find the information I need, so that I can quickly learn about the gym's services and features.
+
+  4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
+
+
+# Features
 
 - _Navigation Bar_
 
