@@ -6,7 +6,6 @@ html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
     scroll-behavior: smooth;
 }
 
@@ -25,7 +24,6 @@ body {
 
 h1 {
     letter-spacing: 1px;
-    
 }
 
 header {
@@ -34,7 +32,6 @@ header {
     background-color: #0f0f0f;
     position: fixed;
     z-index: 999;
-
 }
 
 #logo {
@@ -55,6 +52,7 @@ header {
     letter-spacing: 2px;
     float: right;
 }
+
 #logo #menu {
     line-height: 1em;
 }
@@ -99,16 +97,12 @@ header {
     font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     max-width: 28rem;
     height: 2rem;
-
     padding-top: 5px;
     padding-left: 5px;
-
     bottom: 18rem;
     left: 2rem;
-
     position: absolute;
 }
 
@@ -118,29 +112,20 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     color: #dc4d40;
-
     padding: 0.2em;
-
     max-width: 15rem;
     min-height: 3rem;
-    
     border-radius: 30px;
-
     background-color: #d0dad4;
-
     bottom: 11rem;
     right: 3rem;
-
     box-shadow: -0.2em 0.2em 0.02em #dc4d40;
-
     position: absolute;
 }
 
 #join-button button:hover {
     color: #d0dad4;
-
     background-color: #dc4d40;
-
     box-shadow: -0.2em 0.2em 0.02em #d0dad4;
 }
 
@@ -154,9 +139,7 @@ header {
     font-size: 300%;
     text-transform: capitalize;
     text-align: center;
-
     padding-top: 0.5em;
-    
     margin-bottom: 0.5em;
 }
 
@@ -164,9 +147,7 @@ header {
     font-size: 115%;
     max-width: 25rem;
     min-height: 5rem;
-    
     float: left;
-    
     margin-top: 2em;
     margin-left: 3em;
     margin-right: 8em;
@@ -175,10 +156,8 @@ header {
 #about-images-outer {
     max-width: 26rem;
     min-height: 15rem;
-
     padding: 1em;
     margin-left: 3em;
-
     display: table;
 }
 
@@ -197,19 +176,15 @@ header {
 #join-section h2 {
     text-align: center;
     font-size: 300%;
-
     padding: 20px;
-    
     margin-bottom: 20px;
 }
 
 #plans-wrapper {
     max-width: 90rem;
     min-height: 15em;
-    
     display: flex;
     justify-content: center;
-
     padding: 0.5em;
     margin-top: 2em;
 }
@@ -218,15 +193,11 @@ header {
     background-color: #0f0f0f;
     width: 30em;
     min-height: 14em;
-
     margin: 0 10px;
-    
     padding: 0.5em 0 0 0;
     text-align: center;
-
     border-radius: 20px;
     box-sizing: border-box;
-
     box-shadow: -0.4em 0.4em 0.02em #dc4d40;
 }
 
@@ -302,9 +273,7 @@ form h4 {
 #form-join-button {
     width: fit-content;
     height: auto;
-
     font-size: 18px;
-    
     padding: 3px 15px;
     border-radius: 30px;
     color: #0f0f0f;
@@ -331,14 +300,11 @@ form h4 {
 #contact-info {
     width: fit-content;
     height: auto;
-
     padding: 1em;
     margin-top: 2em;
-
     background-color: rgba(15, 15, 15, 0.8);
     border-radius: 4%;
     position: absolute;
-
     right: 5em;
 }
 
@@ -354,14 +320,12 @@ form h4 {
 footer {
     max-width: 100%;
     min-height: 75px;
-
     background-color: #0f0f0f;
 }
 #footer-logo {
     float: left;
     text-transform: uppercase;
     color: #d0dad4;
-
     margin: 1em;
 }
 
@@ -379,6 +343,7 @@ footer {
 .social-links i:hover {
     color: #dc4d40;
 }
+
 @media screen and (min-width: 1441px) {
     #home {
         min-height: 600px;
@@ -400,27 +365,20 @@ footer {
 
     #cover-text {
         font-size: 350%;
-    
         min-width: 50rem;
         min-height: 25rem;
-    
         padding-top: 5px;
         padding-left: 5px;
-    
         top: 10rem;
         left: 6rem;
-
         display: inline;
     }
 
     #join-button button {
         font-size: 250%;
-    
         padding: 0.5em 0.3em;
-    
         max-width: 30rem;
         min-height: 3rem;
-
         bottom: 13rem;
         right: 6rem;
     }
@@ -432,33 +390,27 @@ footer {
 
     #about-us-heading {
         font-size: 400%;
-    
-        padding-top: 0.5em;
-        
+        padding-top: 0.5em; 
         margin-bottom: 0.5em;
     }
 
     #left-about {
         font-size: 180%;
         max-width: 70rem;
-        min-height: 5rem;
-        
+        min-height: 5rem; 
         margin-top: 1em;
         margin-left: 3em;
         margin-right: 3em;
         margin-bottom: 1em;
-
         position: relative;
     }
     
     #about-images-outer {
         max-width: 60rem;
         min-height: 15rem;
-    
         padding: 0.2;
         margin-top: 4em;
         margin-bottom: 2em;
-
     }
     
     #about-images-outer img {
@@ -471,34 +423,26 @@ footer {
 
     #join-section h2 {
         font-size: 400%;
-    
         padding: 20px;
-        
         margin-bottom: 10px;
     }
 
     #plans-wrapper {
         max-width: 100%;
-        min-height: 18em;
-        
+        min-height: 18em; 
         display: flex;
         justify-content: center;
-    
         padding: 0.5em;
         margin-top: 1em;
-
         border: 1px solid red;
     }
     
     .plan-card {
         width: 30em;
         min-height: 16em;
-    
         margin: 0 10px;
-        
         padding: 0.5em 0 0 0;
         text-align: center;
-    
         border-radius: 20px;
         box-sizing: border-box;
     
@@ -542,16 +486,12 @@ footer {
     #contact-info {
         width: fit-content;
         height: auto;
-    
         padding: 1em;
         margin-top: 3em;
-    
         background-color: rgba(15, 15, 15, 0.8);
         border-radius: 4%;
         position: absolute;
-    
-        right: 10em;
-        
+        right: 10em; 
     }
     
     #map {
@@ -586,36 +526,27 @@ footer {
 
     #cover-text {
         font-size: 300%;
-    
         min-width: 50rem;
         min-height: 25rem;
-    
         padding-top: 5px;
         padding-left: 5px;
-    
         top: 10rem;
         left: 6rem;
-
         display: inline;
     }
 
     #join-button button {
         font-size: 250%;
-    
         padding: 0.5em 0.3em;
-    
         max-width: 30rem;
         min-height: 3rem;
-
         bottom: 13rem;
         right: 6rem;
     }
 
     #about-us-heading {
         font-size: 400%;
-    
         padding-top: 0.5em;
-        
         margin-bottom: 0.5em;
     }
 
@@ -623,7 +554,6 @@ footer {
         font-size: 140%;
         max-width: 35rem;
         min-height: 5rem;
-        
         margin-top: 2em;
         margin-left: 3em;
         margin-right: 8em;
@@ -632,7 +562,6 @@ footer {
     #about-images-outer {
         max-width: 30rem;
         min-height: 15rem;
-    
         padding: 1em;
         margin-left: 3em;
         margin-bottom: 3em;
@@ -657,17 +586,14 @@ footer {
 
     #about-us-heading {
         font-size: 200%;
-    
         padding-top: 0.5em;
-        
         margin-bottom: 0.3em;
     }
 
     #left-about {
         font-size: 110%;
         max-width: 20rem;
-        min-height: 8rem;
-        
+        min-height: 8rem; 
         margin-top: 2em;
         margin-left: 3em;
         margin-right: 4em;
@@ -676,11 +602,9 @@ footer {
     #about-images-outer {
         max-width: 20rem;
         min-height: 15rem;
-    
         padding: 1em;
         margin-left: 3em;
         margin-top: 3.5em;
-    
     }
     
     #about-images-outer img {
@@ -691,13 +615,10 @@ footer {
 @media screen and (max-width: 768px) {
     #cover-text {
         font-size: 150%;
-    
         max-width: 22rem;
         height: 2rem;
-    
         padding-top: 5px;
         padding-left: 5px;
-    
         bottom: 16rem;
         left: 2rem;
     }
@@ -715,9 +636,7 @@ footer {
 
     #about-us-heading {
         font-size: 200%;
-    
         padding-top: 0.5em;
-        
         margin-bottom: 0.3em;
     }
 
@@ -725,8 +644,7 @@ footer {
         text-align: center;
         font-size: 110%;
         max-width: 30rem;
-        min-height: 8rem;
-        
+        min-height: 8rem; 
         margin-top: 2em;
         margin-left: 7em;
         margin-right: 7em;
@@ -735,11 +653,9 @@ footer {
     #about-images-outer {
         max-width: 40rem;
         min-height: 15rem;
-    
         padding: 1.5em;
         margin-left: 4em;
         margin-top: 3.5em;
-
         display: inline-block;
     }
     
@@ -767,7 +683,6 @@ footer {
         margin: 0 0 0.2em 0;
         float: unset;
         padding: 0.2em;
-        
     }
 
     #menu {
@@ -777,7 +692,6 @@ footer {
         float: none;
         display: flex;
         justify-content: center;
-
         padding: 0.5em;
     }
     
@@ -788,25 +702,19 @@ footer {
 
     #cover-text {
         font-size: 135%;
-    
         max-width: 25rem;
         min-height: 1rem;
-    
         padding-top: 0.2em;
         padding-left: 0.2em;
-    
         bottom: 18rem;
         left: 1rem;
     }
 
     #join-button button {
         font-size: 150%;
-    
         padding: 0.5em 0.3em;
-    
         max-width: 20rem;
         min-height: 3rem;
-
         bottom: 2em;
         left: 2.2em;
     }
@@ -819,9 +727,7 @@ footer {
 
     #about-us-heading {
         font-size: 200%;
-    
         padding-top: 0.5em;
-        
         margin-bottom: 0.3em;
     }
 
@@ -829,8 +735,7 @@ footer {
         text-align: center;
         font-size: 110%;
         max-width: 35rem;
-        min-height: 8rem;
-        
+        min-height: 8rem; 
         margin-top: 2em;
         margin-left: 2em;
         margin-right: 2em;
@@ -839,11 +744,9 @@ footer {
     #about-images-outer {
         max-width: 40rem;
         min-height: 15rem;
-    
         padding: 1.5em;
         margin-left: 4em;
         margin-top: 3.5em;
-
         display: inline-block;
     }
     
@@ -859,29 +762,23 @@ footer {
 
     #join-section h2 {
         font-size: 200%;
-        
         margin-bottom: 0.05em;
     }
 
     #plans-wrapper {
         max-width: 100%;
         min-height: 5em;
-        
         display: inline-block;
-    
         padding: 0.2em;
         margin-top: 1em;
     }
     
     .plan-card {
         width: auto;
-        min-height: 5em;
-        
+        min-height: 5em; 
         padding: 0.5em 0 0 0;
         text-align: center;
-
         margin-bottom: 2em;
-    
     }
     
     .plan-card h3 {
@@ -933,7 +830,6 @@ footer {
     
     #choose-plan {
         display: block;
-
     }
     
     .plan-input {
@@ -948,15 +844,12 @@ footer {
     #form-join-button {
         width: fit-content;
         height: auto;
-    
         font-size: 18px;
-        
         padding: 3px 15px;
     }
 
     #contact-us {
         max-height: 200px;
-
     }
 
     #contact-info > h2 {
@@ -979,13 +872,10 @@ footer {
     #contact-info {
         max-width: 100%;
         max-height: 150px;
-    
         padding: 0.6em;
         margin-top: 0.5em;
-    
         background-color: rgba(15, 15, 15, 0.8);
         border-radius: unset;
-
         display: block;
         position: static;
     }
