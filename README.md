@@ -29,6 +29,28 @@ The site emphasizes the convenience and flexibility of having a personal trainer
 
 # Design
 
+## Color Scheme
+
+![Color Pallet](/assets/images/coolors-pallet.png)
+
+The website uses a pallet of dark and light contrasting colors. The color pallet was created using the [Coolors](https://coolors.co) website.
+
+## Typography
+
+Google Fonts was used fir the following fonts:
+
+  - Syne ExtraBold 800 was used for all main headings.
+  - Syne Regular 400 was used for the body text.
+
+## Imagery
+
+The Images used are copyright free images and I have credited the site in the credits section.
+
+## Wireframe
+
+The wireframe was created for the overall site using [Figma](https://www.figma.com)
+
+![Wireframe](/assets/images/Wireframe.png)
 
 # Features
 
@@ -123,7 +145,6 @@ The live link can be found here - https://jflets.github.io/FletFit-project-1-/
  - The icons in the footer where taken from [Font Awesome](https://fontawesome.com/)
  - The embedded google maps section implementation was taken from [YouTube](https://youtu.be/inkP0lstoxU)
  - The text shadow implementation was taken form [Youtube](https://youtu.be/lP0VWUUW-Vs)
- - The color pallet was made in [Coolors](https://coolors.co)
 
 ## Media
 
