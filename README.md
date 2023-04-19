@@ -27,6 +27,8 @@ The site emphasizes the convenience and flexibility of having a personal trainer
 
   4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
 
+# Design
+
 
 # Features
 
@@ -121,6 +123,7 @@ The live link can be found here - https://jflets.github.io/FletFit-project-1-/
  - The icons in the footer where taken from [Font Awesome](https://fontawesome.com/)
  - The embedded google maps section implementation was taken from [YouTube](https://youtu.be/inkP0lstoxU)
  - The text shadow implementation was taken form [Youtube](https://youtu.be/lP0VWUUW-Vs)
+ - The color pallet was made in [Coolors](https://coolors.co)
 
 ## Media
 
