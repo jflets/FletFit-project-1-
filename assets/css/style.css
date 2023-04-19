@@ -21,7 +21,7 @@ body {
     color: #d0dad4;
     background-color: #0f0f0f;
 }
-
+/* Headings and Logo */
 h1 {
     letter-spacing: 1px;
 }
@@ -46,7 +46,7 @@ header {
 #logo:hover {
    color: #dc4d40;
 }
-
+/* Navigation links */
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
@@ -73,7 +73,7 @@ header {
     color: #dc4d40;
     border-bottom: 1px solid #dc4d40;
 }
-
+/* Hero image and cover text */
 #home {
     min-height: 500px;
     max-width: 100%;
@@ -105,7 +105,7 @@ header {
     left: 2rem;
     position: absolute;
 }
-
+/* Join button */
 #join-button button {
     font-family: syne, sans-serif;
     font-size: 150%;
@@ -128,7 +128,7 @@ header {
     background-color: #dc4d40;
     box-shadow: -0.2em 0.2em 0.02em #d0dad4;
 }
-
+/* About us section */
 #about-us {
     min-height: 600px;
     width: 100%;
@@ -165,7 +165,7 @@ header {
     max-width: 9.5rem;
     border-radius: 20px;
 }
-
+/* Join section */
 #join-section {
     min-height: 600px;
     max-width: 100%;
@@ -216,7 +216,7 @@ header {
 .plan-card h4 {
     padding: 1em;
 }
-
+/* Join form */
 form {
     max-width: 100%;
     min-height: 10rem;
@@ -283,7 +283,7 @@ form h4 {
     background-color: #dc4d40;
     color: #d0dad4;
 }
-
+/* Contact us section */
 #contact-us {
     max-width: 100%;
     height: 20rem;
@@ -316,7 +316,7 @@ form h4 {
     min-height: 20em;
     width: 100%;
 }
-
+/* Footer */
 footer {
     max-width: 100%;
     min-height: 75px;
@@ -343,7 +343,8 @@ footer {
 .social-links i:hover {
     color: #dc4d40;
 }
-
+/* Media queries */
+/* For largest screen sizes */
 @media screen and (min-width: 1441px) {
     #home {
         min-height: 600px;
@@ -503,7 +504,7 @@ footer {
         width: 100%;
     }
 }
-
+/* For large screen sizes */
 @media screen and (min-width: 1250px) and (max-width: 1440px) {
 
     #home {
@@ -571,7 +572,7 @@ footer {
         max-width: 11rem;
     }
 }
-
+/* For medium screen sizes */
 @media screen and (max-width: 950px) {
     #join-button button {
         font-size: 120%;
@@ -611,7 +612,7 @@ footer {
         max-width: 9rem;
     }
 }
-
+/* For tablet screen sizes */
 @media screen and (max-width: 768px) {
     #cover-text {
         font-size: 150%;
@@ -663,7 +664,7 @@ footer {
         max-width: 7rem;
     }
 }
-
+/* For mobile screen sizes */
 @media screen and (max-width: 600px) {
     header {
         min-height: 75px;
