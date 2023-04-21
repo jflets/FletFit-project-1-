@@ -159,14 +159,11 @@ header {
 }
 
 #about-images-outer {
-    max-width: 26rem;
-    min-height: 15rem;
-    padding: 1em;
-    display: table;
+    min-height: 5em;
 }
 
 #about-images-outer img {
-    max-width: 9rem;
+    max-width: 25rem;
     border-radius: 20px;
 }
 /* Join section */
@@ -412,15 +409,11 @@ footer {
     }
     
     #about-images-outer {
-        max-width: 60rem;
-        min-height: 15rem;
-        padding: 0.2;
-        margin-top: 4em;
-        margin-bottom: 2em;
+        margin: 0 0 0 3em;
     }
     
     #about-images-outer img {
-        max-width: 15rem;
+        max-width: 40rem;
     }
 
     #join-section {
@@ -568,14 +561,12 @@ footer {
         margin-right: 8em;
     }
     
-    #about-images-outer {
-        max-width: 30rem;
-        min-height: 15rem;
-        padding: 1em;
+    #about-wrapper {
+        margin: 0 0 2em 0;
     }
     
     #about-images-outer img {
-        max-width: 10rem;
+        max-width: 30rem;
     }
 
     .plan-card ul{
@@ -602,22 +593,20 @@ footer {
     }
 
     #left-about {
-        font-size: 110%;
-        max-width: 20rem;
+        font-size: 120%;
+        max-width: 25rem;
         min-height: 8rem; 
         margin-top: 2em;
         margin-left: 3em;
         margin-right: 4em;
     }
     
-    #about-images-outer {
-        max-width: 20rem;
-        min-height: 15rem;
-        padding: 1em;
+    #about-wrapper {
+        min-height: 100%;
     }
     
     #about-images-outer img {
-        max-width: 7rem;
+        max-width: 20rem;
     }
 }
 /* For tablet screen sizes */
@@ -658,21 +647,20 @@ footer {
     #left-about {
         text-align: center;
         font-size: 110%;
-        margin: 0 6em;
+        margin: 0 6em 2em 6em;
         max-width: 30rem;
         min-height: 8rem; 
     }
     
     #about-images-outer {
-        max-width: 40rem;
-        min-height: 15rem;
-        padding: 1.5em;
-        margin: 1em 5em;
-        display: inline-block;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
-    
+
     #about-images-outer img {
-        max-width: 7rem;
+        max-width: 25rem;
     }
 
     #join-section h2 {
@@ -756,21 +744,20 @@ footer {
     #left-about {
         text-align: center;
         font-size: 110%;
-        margin: 0 1em;
+        margin: 0 1em 2em 1em;
         max-width: 30rem;
         min-height: 8rem; 
     }
     
     #about-images-outer {
-        max-width: 40rem;
-        min-height: 15rem;
-        padding: 1.5em;
-        margin: 1em 1em;
-        display: table;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
-    
+
     #about-images-outer img {
-        max-width: 6rem;
+        max-width: 18rem;
     }
 
     #join-section {
