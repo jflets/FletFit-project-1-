@@ -144,9 +144,9 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
   1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
 
-    ![Responsive Mockups](/assets/images/responsive-mockup-2.png)
+    ![Responsive Mockups](/assets/images/Mockup.png)
 
-  2. As a first-time visitor, I want to easily understand what FletFit offers and become a member, so that I can start achieving my fitness goals with expert guidance.
+  2. As a first-time visitor, I want to easily understand what FletFit offers, so that I can start achieving my fitness goals with expert guidance.
 
   ![Plans](/assets/images/Plans.png)
 
