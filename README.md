@@ -180,7 +180,7 @@ Google Dev Tools - To test and trouble shoot features and solve issues withe the
 
   1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
 
-  ![Mockups](/assets/images/mockup.png)
+  ![Mockups](/assets/images/mockup1.png)
 
   2. As a first-time visitor, I want to easily understand what FletFit offers, so that I can start achieving my fitness goals with expert guidance.
 
