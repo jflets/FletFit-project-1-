@@ -100,11 +100,47 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
 ## Features Left to Implement
 
+- _Blog_
+
+  - Create a blog page to allow clients to write about their experiences, and to create a community around FletFit.
+
 - _Testimonial Section_
   
   - The testimonial section would allow a user to read positive reviews for FletFit from active users.
   - The testimonial section is valuable to a user as they will gain confidence that FletFit will help them.
 
+# Accessibility
+
+Throughout coding this site I kept accessibility in mind, to ensure that the website is user friendly for any user. I did this by:
+
+  - Using semantic HTML.
+  - Using a descriptive alt attribute on images.
+  - Using descriptive aria labels for all links.
+  - Providing information for screen readers when using icons - such as footer icons.
+
+# Technologies Used
+
+HTML and CSS where used to create the whole site.
+
+# Frameworks, Libraries and Programs Used
+
+Figma - To create wireframe.
+
+Git - For version control.
+
+Github - To save and share files for the site.
+
+VScode - IDE used to code the site.
+
+Google Fonts - To import fonts used on the site.
+
+Font Awesome - To import the icons used on the site.
+
+Google Dev Tools - To test and trouble shoot features and solve issues withe the responsiveness of the site.
+
+[Convertio](https://convertio.co/png-webp/) - To convert PNG to WEBP.
+
+[TechSini](https://techsini.com/multi-mockup/) - To create responsive mockups.
 # Testing
 
 ## Screen Size Testing
@@ -144,7 +180,7 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
   1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
 
-    ![Responsive Mockups](/assets/images/Mockup.png)
+  ![Mockups](/assets/images/Mockup.png)
 
   2. As a first-time visitor, I want to easily understand what FletFit offers, so that I can start achieving my fitness goals with expert guidance.
 
