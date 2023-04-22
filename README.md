@@ -138,15 +138,25 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
   3. When running the HTML through the W3C HTML validator the embedded google map was coming up as having an "bad value" this was due to having a percentage sign within the iframe tag, the sizing for width and height. To fix this i gave the iframe width and height fixed sizing and the within the CSS stylesheet, I gave the map responsive sizing. This fixed the error in the W3C validator.
 
+  4. When running the HTML through the W3C validator the main hero join button came back with an error, the error was that a button tag cannot be a child of an "a tag". To fix this is removed the a tag and places the href link inside the button element tag.
+
 ## Testing User Stories
 
   1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
 
+    ![Responsive Mockup](/assets/images/responsive-mockup.png)
+
   2. As a first-time visitor, I want to easily understand what FletFit offers and become a member, so that I can start achieving my fitness goals with expert guidance.
+
+    ![Plans](/assets/images/join-section.png)
 
   4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
 
+    ![Contact Us](/assets/images/contact-us-section.png)
+
   5. As a first-time visitor, I want to be able to find the social links for FletFit easily. 
+
+    ![Footer](/assets/images/footer.png)
 
   ![Social Links](/assets/images/footer.png)
 # Deployment
