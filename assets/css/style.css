@@ -286,15 +286,78 @@ form h4 {
 #form-join-button {
     width: fit-content;
     height: auto;
+    background-color: #d0dad4;
     font-size: 22px;
     padding: 3px 15px;
     border-radius: 30px;
     color: #0f0f0f;
+    text-decoration: none;
 }
 
 #form-join-button:hover {
     background-color: #dc4d40;
     color: #d0dad4;
+}
+/* Popup */
+.overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 4em;
+    padding: 1em;
+    background: #0f0f0f;
+    border-radius: 20px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    border: 0.3em solid #dc4d40;
+    
+}
+
+.popup h2 {
+    text-align: center;
+    margin: 0 0 1em 0;
+    color: #d0dad4;
+}
+
+.popup .close {
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d0dad4;
+}
+
+.popup .close:hover {
+    color: #dc4d40;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    font-size: 30px;
 }
 /* Contact us section */
 #contact-us {
@@ -677,6 +740,36 @@ footer {
     #join-section h2 {
         font-size: 250%;
     }
+
+    .popup {
+        font-size: 15px;
+        margin: 4em;
+        padding: 1em;
+        background: #0f0f0f;
+        border-radius: 20px;
+        width: 30%;
+        position: relative;
+        transition: all 5s ease-in-out;
+        border: 0.3em solid #dc4d40;
+        
+    }
+    
+    .popup h2 {
+        text-align: center;
+        margin: 0 0 1em 0;
+        color: #d0dad4;
+    }
+    
+    .popup .close {
+        position: absolute;
+        top: 0.2em;
+        right: 0.5em;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #d0dad4;
+    }
 }
 /* For mobile screen sizes */
 @media screen and (max-width: 600px) {
@@ -860,8 +953,38 @@ footer {
     #form-join-button {
         width: fit-content;
         height: auto;
-        font-size: 18px;
+        font-size: 12px;
         padding: 3px 15px;
+    }
+    
+    .popup {
+        font-size: 12px;
+        margin: 4em;
+        padding: 1em;
+        background: #0f0f0f;
+        border-radius: 20px;
+        width: 50%;
+        position: relative;
+        transition: all 5s ease-in-out;
+        border: 0.3em solid #dc4d40;
+        
+    }
+    
+    .popup h2 {
+        text-align: center;
+        margin: 0 0 1em 0;
+        color: #d0dad4;
+    }
+    
+    .popup .close {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        transition: all 200ms;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #d0dad4;
     }
 
     #contact-us {
