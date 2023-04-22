@@ -115,6 +115,10 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
  I used Lighthouse in the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
+ Suggestions:
+   
+   1. Preload the image used by the LCP element in order to improve your LCP time
+
    ![Lighthouse Score](/assets/images/lighthouse-1.png)
    ![Lighthouse Score](/assets/images/lighthouse-2.png)
 
