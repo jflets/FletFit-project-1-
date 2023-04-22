@@ -113,9 +113,10 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
 ## Lighthouse Testing
 
-   - The site has a heigh accessibility score ensuring that the site can be accessed easily by screen readers.
+ I used Lighthouse in the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
-   ![Lighthouse Score](/assets/images/Accessibility-score.png)
+   ![Lighthouse Score](/assets/images/lighthouse-1.png)
+   ![Lighthouse Score](/assets/images/lighthouse-2.png)
 
 ## Validator Testing
 
