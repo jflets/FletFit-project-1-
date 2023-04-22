@@ -2,7 +2,7 @@
 
 Welcome to FletFit, your ultimate solution for fitness on the go! We bring the gym to you with our mobile personal training services. Whether you're at home, at the office, or anywhere in Haywards Heath, West Sussex, UK, our expert trainers will come to your location, equipped with state-of-the-art fitness equipment, to help you achieve your fitness goals.
 
-![Responsive Mockup](/assets/images/responsive-mockup.png)
+![Responsive Mockup](/assets/images/resposive-mockup.png)
 
 # User Experience (UX)
 
@@ -180,7 +180,7 @@ Google Dev Tools - To test and trouble shoot features and solve issues withe the
 
   1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
 
-  ![Mockups](/assets/images/Mockup.png)
+  ![Mockups](/assets/images/mockup.png)
 
   2. As a first-time visitor, I want to easily understand what FletFit offers, so that I can start achieving my fitness goals with expert guidance.
 
