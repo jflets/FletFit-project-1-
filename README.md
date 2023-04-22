@@ -143,22 +143,16 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 ## Testing User Stories
 
   1. As a client, I want to access the FletFit website on any device and have a consistent user experience.
-
-    ![Responsive Mockup](/assets/images/responsive-mockup.png)
+  
 
   2. As a first-time visitor, I want to easily understand what FletFit offers and become a member, so that I can start achieving my fitness goals with expert guidance.
 
-    ![Plans](/assets/images/join-section.png)
 
   4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
 
-    ![Contact Us](/assets/images/contact-us-section.png)
 
   5. As a first-time visitor, I want to be able to find the social links for FletFit easily. 
 
-    ![Footer](/assets/images/footer.png)
-
-  ![Social Links](/assets/images/footer.png)
 # Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
