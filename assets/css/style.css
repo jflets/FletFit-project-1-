@@ -241,7 +241,7 @@ form {
     border: 1px solid #d0dad4;
     border-radius: 5px;
     color: #d0dad4;
-    padding: 0.3em 0.3em;
+    padding: 0.3em;
 }
 
 .text-input:focus {
@@ -256,6 +256,17 @@ form {
     width: 100%;
 }
 
+#text-area {
+    width: 100%;
+    font-size: 15px;
+    padding: 0.3em;
+    border-radius: 5px;
+}
+
+#text-area:focus {
+    outline:1px solid #dc4d40;
+}
+
 #choose-plan {
     display: flex;
     align-items: center;
@@ -264,7 +275,7 @@ form {
 }
 
 .plan-input {
-    margin: 0 10px;
+    margin: 10px 0;
     accent-color: #dc4d40;
 }
 
@@ -838,7 +849,7 @@ footer {
     }
     
     .plan-input {
-        margin: 0.5em 0.5em;
+        margin: 0.5em 0.2em;
     }
     
     form h4 {
