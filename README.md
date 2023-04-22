@@ -117,7 +117,7 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
  Suggestions:
    
-   1. Preload the image used by the LCP element in order to improve your LCP time
+   1. Preload the image used by the LCP element in order to improve your LCP time. Lighthouse suggests preloading the largest image on the site to reduce load up time. I have added a preload link in my HTML to preload the hero image.
 
    ![Lighthouse Score](/assets/images/lighthouse-1.png)
    ![Lighthouse Score](/assets/images/lighthouse-2.png)
