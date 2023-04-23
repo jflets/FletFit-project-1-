@@ -222,7 +222,8 @@ Links.
 
 Join Form.
 
-  1. 
+  - Test the join form. I attempted to submit the form without completing any of the input fields, but the form functioned correctly and prompted me to fill in the name field. After providing the name information, I tried to submit the form again, and it functioned correctly once more, directing me to complete the email field. Finally, after entering information into both the name and email fields, I attempted to submit the form. Agin the form worked correctly and prompted me to select one of the plans from the radio button fields. After completing all of the required fields, the form worked and redirected me to the thank you page.
+
 # Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
