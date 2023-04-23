@@ -102,7 +102,8 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
 - _Thank You Page_
 
-  - The thank you page includes a message giving the user feedback when they submit the join form, it also includes social links. This lets the user to know they have successfully submitted the forma nd gives them easy access to the social media pages for FletFit.
+  - The thank you page includes a message giving the user feedback when they submit the join form, it also includes social links. The page also includes a close x icon that takes the user back to the main home page, for a goo user experience.
+  - The thank you page is valuable because it lets the user to know they have successfully submitted the forma nd gives them easy access to the social media pages for FletFit.
 
   ![Thank You Page](/assets/images/thank-you-page.png)
 
