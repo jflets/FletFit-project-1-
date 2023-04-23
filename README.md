@@ -54,6 +54,8 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
 
 ![Wireframe](/assets/images/wireframe2.png)
 
+![Wireframe](/assets/images/thank-you-wireframe.png)
+
 # Features
 
 - _Navigation Bar_
@@ -97,6 +99,12 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
   - The footer is valuable to the user as it encourages them to connect via social media. The footer also allows fast easy navigation back to the landing page section.
 
   ![Footer](/assets/images/footer.png)
+
+- _Thank You Page_
+
+  - The thank you page includes a message giving the user feedback when they submit the join form, it also includes social links. This lets the user to know they have successfully submitted the forma nd gives them easy access to the social media pages for FletFit.
+
+  ![Thank You Page](/assets/images/thank-you-page.png)
 
 ## Features Left to Implement
 
@@ -150,10 +158,10 @@ Google Dev Tools - To test and trouble shoot features and solve issues withe the
 ## Lighthouse Testing
 
  I used Lighthouse in the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
-
- Suggestions:
   
  Index.html
+
+  Suggestions:
 
    1. Preload the image used by the LCP element in order to improve your LCP time. Lighthouse suggests preloading the largest image on the site to reduce load up time. I have added a preload link in my HTML to preload the hero image.
 
