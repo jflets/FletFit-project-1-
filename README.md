@@ -207,6 +207,22 @@ Google Dev Tools - To test and trouble shoot features and solve issues withe the
   5. As a first-time visitor, I want to be able to find the social links for FletFit easily. 
 
   ![Social Links](/assets/images/social-links.png)
+
+## Full Testing
+
+To fully test the site I carried out the following tests using a multiple browsers (Google Chrome, Safari, Microsoft Edge) and different devices (Mackbook Pro 13 inch, Iphone XS max, Ipad, Window Desktop with 28 inch monitor)
+
+Links.
+  
+  1. Test navigation links on index page. Each link worked and scrolled down to the correct section on the page.
+  2. Test join button in hero section link to join form. The link worked and scrolled to the join section.
+  3. Test social media footer links to Facebook and Instagram. The links worked and opened in a separate browser tab.
+  4. Test join button in join form links to thank you page. The link worked correctly and opened the thank you page.
+  5. Test thank you page exit icon returns to index.html. The link worked and returned the user back to the index page.
+
+Join Form.
+
+  1. 
 # Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
