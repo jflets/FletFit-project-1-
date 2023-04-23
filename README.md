@@ -152,12 +152,17 @@ Google Dev Tools - To test and trouble shoot features and solve issues withe the
  I used Lighthouse in the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
  Suggestions:
-   
+  
+Index.html
+
    1. Preload the image used by the LCP element in order to improve your LCP time. Lighthouse suggests preloading the largest image on the site to reduce load up time. I have added a preload link in my HTML to preload the hero image.
 
    ![Lighthouse Score](/assets/images/lighthouse-3.png)
    ![Lighthouse Score](/assets/images/lighthouse-2.png)
 
+Thank-you.html
+
+  ![Lighthouse Score](/assets/images/lighhouse-4.png)
 ## Validator Testing
 
 - _HTML_
