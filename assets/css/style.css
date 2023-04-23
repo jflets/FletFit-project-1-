@@ -371,16 +371,17 @@ footer {
     justify-content: center;
 }
 
-#thank-you-card {
+.thank-you-card {
     width: 50%;
     max-height: 50%;
     padding: 2em;
     border-radius: 20px;
     background-color: #0f0f0f;
     border: 0.3em solid #dc4d40;
+    position: relative;
 }
 
-#thank-you-card h3 {
+.thank-you-card h3 {
     width: 100%;
     font-size: 40px;
     text-align: center;
@@ -388,16 +389,16 @@ footer {
     margin-bottom: 0.5em;
 }
 
-#close {
+.thank-you-card .close {
     position: absolute;
-    right: 6em;
-    top: 3.2em;
+    right: 0.4em;
+    top: 0;
     font-size: 45px;
     text-decoration: none;
     color: #d0dad4;
 }
 
-#close:hover {
+.close:hover {
     color: #dc4d40;
 }
 
@@ -405,6 +406,24 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 25px;
+}
+
+.social-links-2 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    color: #d0dad4;
+    list-style: none;
+    margin: 0.5em 0 0 0;
+}
+
+.social-links-2 > li {
+    padding: 1em;
+}
+
+.social-links-2 i {
+    font-size: 250%;
+    color: #d0dad4;
 }
 /* Media queries */
 /* For largest screen sizes */
@@ -727,6 +746,25 @@ footer {
     #join-section h2 {
         font-size: 250%;
     }
+
+    .thank-you-card h3 {
+        font-size: 35px;
+        padding: 0.2em;
+    }
+    
+    .thank-you-card .close {
+        right: 0.4em;
+        top: 0;
+        font-size: 40px;
+    }
+    
+    #content {
+        font-size: 20px;
+    }
+    
+    .social-links-2 i {
+        font-size: 200%;
+    }
 }
 /* For mobile screen sizes */
 @media screen and (max-width: 600px) {
@@ -957,6 +995,30 @@ footer {
     }
 
     .social-links i {
+        font-size: 200%;
+    }
+
+    .thank-you-card {
+        padding: 2em;
+    }
+
+    .thank-you-card h3 {
+        font-size: 26px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .thank-you-card .close {
+        right: 0.4em;
+        top: 0;
+        font-size: 40px;
+    }
+    
+    #content {
+        font-size: 15px;
+    }
+    
+    .social-links-2 i {
         font-size: 200%;
     }
 }
