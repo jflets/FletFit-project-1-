@@ -256,17 +256,6 @@ form {
     width: 100%;
 }
 
-#text-area {
-    width: 100%;
-    font-size: 15px;
-    padding: 0.3em;
-    border-radius: 5px;
-}
-
-#text-area:focus {
-    outline:1px solid #dc4d40;
-}
-
 #choose-plan {
     display: flex;
     align-items: center;
@@ -497,7 +486,7 @@ footer {
     }
 
     #join-section {
-        max-height: 800px;
+        max-height: 1000px;
     }
 
     #join-section h2 {
