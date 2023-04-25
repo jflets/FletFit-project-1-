@@ -84,7 +84,7 @@ The wireframe was created for the overall site using [Figma](https://www.figma.c
   - The join section will allow the user to see the different fitness plans available and allow them to sign up through a form. The user will be able to specify what plan they will want plan 1, plan 2 or plan 3.
   - The join section is valuable as the user will understand what each plan provides and will understand the steps to fill out the form.
 
-  ![Join Section](/assets/images/join-section.png)
+  ![Join Section](/assets/images/join-section-3.png)
 
 - _Contact Us Section_
 
