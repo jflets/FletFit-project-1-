@@ -1,1013 +1,1017 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap");
 
 html {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: syne, sans-serif;
-    font-weight: 200;
-    color: #d0dad4;
-    background-color: #0f0f0f;
+  font-family: syne, sans-serif;
+  font-weight: 200;
+  color: #d0dad4;
+  background-color: #0f0f0f;
 }
 /* Headings and Logo */
 h1 {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 header {
-    min-height: 75px;
-    width: 100%;
-    background-color: #0f0f0f;
-    position: fixed;
-    z-index: 999;
+  min-height: 75px;
+  width: 100%;
+  background-color: #0f0f0f;
+  position: fixed;
+  z-index: 999;
 }
 
 #logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 1em;
-    margin-top: 0.3em;
-    text-transform: uppercase;
-    color: #d0dad4;
+  float: left;
+  font-size: 250%;
+  margin-left: 1em;
+  margin-top: 0.3em;
+  text-transform: uppercase;
+  color: #d0dad4;
 }
 
 #logo:hover {
-   color: #dc4d40;
+  color: #dc4d40;
 }
 /* Navigation links */
 #menu {
-    font-size: 120%;
-    letter-spacing: 2px;
-    float: right;
+  font-size: 120%;
+  letter-spacing: 2px;
+  float: right;
 }
 
 #logo #menu {
-    line-height: 1em;
+  line-height: 1em;
 }
 
 #menu li {
-    float: left;
-    list-style-type: none;
-    margin-right: 1em;
-    margin-top: 1.2em;
+  float: left;
+  list-style-type: none;
+  margin-right: 1em;
+  margin-top: 1.2em;
 }
 
 #menu a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #menu a:hover {
-    color: #dc4d40;
-    border-bottom: 1px solid #dc4d40;
+  color: #dc4d40;
+  border-bottom: 1px solid #dc4d40;
 }
 /* Hero image and cover text */
 #home {
-    min-height: 500px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
+  min-height: 500px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #d0dad4;
-    text-shadow:-0.07em 0.05em 0.02em #dc4d40;
+#cover-text,
+#cover-text h2 {
+  color: #d0dad4;
+  text-shadow: -0.07em 0.05em 0.02em #dc4d40;
 }
 
 #hero-image {
-    width: 100%;
-    min-height: 500px;
-    background: url(../images/hero-image.webp) no-repeat center center;
-    background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  background: url(../images/hero-image.webp) no-repeat center center;
+  background-size: cover;
 }
 
 #cover-text {
-    font-size: 200%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    max-width: 28rem;
-    height: 2rem;
-    padding-top: 5px;
-    padding-left: 5px;
-    bottom: 18rem;
-    left: 2rem;
-    position: absolute;
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  max-width: 28rem;
+  height: 2rem;
+  padding-top: 5px;
+  padding-left: 5px;
+  bottom: 18rem;
+  left: 2rem;
+  position: absolute;
 }
 /* Join button */
 #join-button button {
-    font-family: syne, sans-serif;
-    font-size: 150%;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #dc4d40;
-    padding: 0.2em;
-    max-width: 15rem;
-    min-height: 3rem;
-    border-radius: 30px;
-    background-color: #d0dad4;
-    bottom: 11rem;
-    right: 3rem;
-    box-shadow: -0.2em 0.2em 0.02em #dc4d40;
-    position: absolute;
+  font-family: syne, sans-serif;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #dc4d40;
+  padding: 0.2em;
+  max-width: 15rem;
+  min-height: 3rem;
+  border-radius: 30px;
+  background-color: #d0dad4;
+  bottom: 11rem;
+  right: 3rem;
+  box-shadow: -0.2em 0.2em 0.02em #dc4d40;
+  position: absolute;
 }
 
 #join-button button:hover {
-    color: #d0dad4;
-    background-color: #dc4d40;
-    box-shadow: -0.2em 0.2em 0.02em #d0dad4;
+  color: #d0dad4;
+  background-color: #dc4d40;
+  box-shadow: -0.2em 0.2em 0.02em #d0dad4;
 }
 /* About us section */
 #about-us {
-    min-height: 600px;
-    width: 100%;
-    background-color: #0f0f0f;
+  min-height: 600px;
+  width: 100%;
+  background-color: #0f0f0f;
 }
 
 #about-us-heading {
-    font-size: 300%;
-    text-transform: capitalize;
-    text-align: center;
-    padding-top: 0.5em;
-    margin-bottom: 0.5em;
+  font-size: 300%;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #about-wrapper {
-    max-width: 100%;
-    padding: 1em 2em 1em 2em;
-    display: inline-flex;
-    align-items: center;
+  max-width: 100%;
+  padding: 1em 2em 1em 2em;
+  display: inline-flex;
+  align-items: center;
 }
 
 #left-about {
-    font-size: 120%;
-    max-width: 30rem;
-    min-height: 5rem;
-    float: left;
-    margin: 0 2em 0 3em;
+  font-size: 120%;
+  max-width: 30rem;
+  min-height: 5rem;
+  float: left;
+  margin: 0 2em 0 3em;
 }
 
 #about-images-outer {
-    min-height: 5em;
+  min-height: 5em;
 }
 
 #about-images-outer img {
-    max-width: 25rem;
-    border-radius: 20px;
+  max-width: 25rem;
+  border-radius: 20px;
 }
 /* Join section */
 #join-section {
-    min-height: 800px;
-    max-width: 100%;
-    background-color: #454746;
-    padding: 1em 0 8em 0;
+  min-height: 800px;
+  max-width: 100%;
+  background-color: #454746;
+  padding: 1em 0 8em 0;
 }
 
 #join-section h2 {
-    text-align: center;
-    font-size: 300%;
-    padding: 20px;
-    margin-bottom: 0.1em;
+  text-align: center;
+  font-size: 300%;
+  padding: 20px;
+  margin-bottom: 0.1em;
 }
 
 #plans-wrapper {
-    max-width: 90rem;
-    min-height: 20em;
-    display: flex;
-    justify-content: center;
-    padding: 0.8em;
-    margin: 0 0 5em 0;
+  max-width: 90rem;
+  min-height: 20em;
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+  margin: 0 0 5em 0;
 }
 
 .plan-card {
-    background-color: #0f0f0f;
-    width: 30em;
-    min-height: 14em;
+  background-color: #0f0f0f;
+  width: 30em;
+  min-height: 14em;
+  margin: 0 10px;
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: -0.4em 0.4em 0.02em #dc4d40;
+}
+
+.plan-card h3 {
+  border-bottom: 2px solid #d0dad4;
+  padding-bottom: 3px;
+}
+
+.plan-card ul {
+  padding: 1.5em 1.5em 0 1.5em;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.plan-card h4 {
+  padding: 1em;
+}
+/* Join form */
+form {
+  max-width: 80%;
+  min-height: 10rem;
+  margin: 4em 5em 0 5em;
+  padding: 0 2em 1.5em 1.5em;
+  background-color: #0f0f0f;
+  border-radius: 1em;
+}
+
+#main-input {
+  max-width: 100%;
+  min-height: 4em;
+  display: block;
+}
+
+.text-input {
+  background: transparent;
+  width: 100%;
+  min-height: 1.2em;
+  margin: 1em 0;
+  border: 1px solid #d0dad4;
+  border-radius: 5px;
+  color: #d0dad4;
+  padding: 0.3em;
+}
+
+.text-input:focus {
+  outline: 1px solid #dc4d40;
+}
+
+.text-input:hover {
+  border: 1px solid #dc4d40;
+}
+
+#email {
+  width: 100%;
+}
+
+#text-area {
+  resize: none;
+}
+
+#choose-plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.plan-input {
+  margin: 10px 5px;
+  accent-color: #dc4d40;
+}
+
+form h4 {
+  margin-right: 10px;
+}
+
+#form-join-button {
+  width: fit-content;
+  height: auto;
+  background-color: #d0dad4;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 30px;
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+#form-join-button:hover {
+  background-color: #dc4d40;
+  color: #d0dad4;
+}
+/* Contact us section */
+#contact-us {
+  max-width: 100%;
+  height: 20rem;
+}
+
+#contact-info > h2 {
+  margin-bottom: 0.3em;
+}
+
+#contact-info > p {
+  margin-bottom: 0.2em;
+}
+
+#contact-info {
+  width: fit-content;
+  height: auto;
+  padding: 1em;
+  margin-top: 2em;
+  background-color: rgba(15, 15, 15, 0.8);
+  border-radius: 4%;
+  position: absolute;
+  right: 5em;
+}
+
+#map {
+  overflow: hidden;
+}
+
+#map iframe {
+  min-height: 20em;
+  width: 100%;
+}
+/* Footer */
+footer {
+  max-width: 100%;
+  min-height: 75px;
+  background-color: #0f0f0f;
+}
+#footer-logo {
+  float: left;
+  text-transform: uppercase;
+  color: #d0dad4;
+  margin: 1em;
+}
+
+.social-links > li {
+  display: block;
+  float: right;
+  margin: 1em 2em 0 0;
+}
+
+.social-links i {
+  font-size: 250%;
+  color: #d0dad4;
+}
+
+.social-links i:hover {
+  color: #dc4d40;
+}
+/* Thank You Page */
+
+#thank-you-page {
+  width: 100%;
+  max-height: 100%;
+  min-height: 500px;
+  background: url(../images/journey.webp) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-you-card {
+  width: 50%;
+  max-height: 50%;
+  padding: 2em;
+  border-radius: 20px;
+  background-color: #0f0f0f;
+  border: 0.3em solid #dc4d40;
+  position: relative;
+}
+
+.thank-you-card h3 {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.thank-you-card .close {
+  position: absolute;
+  right: 0.5em;
+  top: 0.2em;
+  font-size: 25px;
+  text-decoration: none;
+  color: #d0dad4;
+}
+
+.close:hover {
+  color: #dc4d40;
+}
+
+#content {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.social-links-2 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  color: #d0dad4;
+  list-style: none;
+  margin: 0.5em 0 0 0;
+}
+
+.social-links-2 > li {
+  padding: 1em;
+}
+
+.social-links-2 i {
+  font-size: 250%;
+  color: #d0dad4;
+}
+/* Media queries */
+/* For largest screen sizes */
+@media screen and (min-width: 1441px) {
+  #home {
+    min-height: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #hero-image {
+    width: 100%;
+    min-height: 600px;
+    background: url(../images/hero-image.webp) no-repeat center center;
+    background-size: cover;
+  }
+
+  #menu {
+    font-size: 140%;
+  }
+
+  #cover-text {
+    font-size: 350%;
+    min-width: 50rem;
+    min-height: 25rem;
+    padding-top: 5px;
+    padding-left: 5px;
+    top: 10rem;
+    left: 6rem;
+    display: inline;
+  }
+
+  #join-button button {
+    font-size: 250%;
+    padding: 0.5em 0.3em;
+    max-width: 30rem;
+    min-height: 3rem;
+    bottom: 13rem;
+    right: 6rem;
+  }
+
+  #about-us {
+    min-height: 700px;
+    width: 100%;
+  }
+
+  #about-us-heading {
+    font-size: 400%;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #left-about {
+    font-size: 180%;
+    max-width: 70rem;
+    min-height: 5rem;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    position: relative;
+  }
+
+  #about-images-outer {
+    margin: 0 0 0 3em;
+  }
+
+  #about-images-outer img {
+    max-width: 40rem;
+  }
+
+  #join-section {
+    max-height: 1000px;
+  }
+
+  #join-section h2 {
+    font-size: 400%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  #plans-wrapper {
+    max-width: 100%;
+    min-height: 18em;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    margin-top: 1em;
+  }
+
+  .plan-card {
+    width: 40em;
+    min-height: 16em;
     margin: 0 10px;
     padding: 0.5em 0 0 0;
     text-align: center;
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: -0.4em 0.4em 0.02em #dc4d40;
-}
+  }
 
-.plan-card h3 {
+  .plan-card h3 {
     border-bottom: 2px solid #d0dad4;
     padding-bottom: 3px;
-}
+  }
 
-.plan-card ul{
+  .plan-card ul {
+    padding: 1.5em 1.5em 0 1.5em;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5em;
+  }
+
+  .plan-card h4 {
+    padding: 1em;
+  }
+
+  form {
+    margin: 4em 15em 0 15em;
+    padding: 0 2em 1em 1em;
+  }
+
+  #contact-us {
+    max-width: 100%;
+    height: 500px;
+  }
+
+  #contact-info > h2 {
+    font-size: 40px;
+    margin-bottom: 0.3em;
+  }
+
+  #contact-info > h4 {
+    font-size: 30px;
+  }
+
+  #contact-info > p {
+    font-size: 25px;
+    margin-bottom: 0.2em;
+  }
+
+  #contact-info {
+    width: fit-content;
+    height: auto;
+    padding: 1em;
+    margin-top: 3em;
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: 4%;
+    position: absolute;
+    right: 10em;
+  }
+
+  #map {
+    overflow: hidden;
+  }
+
+  #map iframe {
+    min-height: 500px;
+    width: 100%;
+  }
+}
+/* For large screen sizes */
+@media screen and (min-width: 1250px) and (max-width: 1440px) {
+  #home {
+    min-height: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #hero-image {
+    width: 100%;
+    min-height: 600px;
+    background: url(../images/hero-image.webp) no-repeat center center;
+    background-size: cover;
+  }
+
+  #menu {
+    font-size: 140%;
+  }
+
+  #cover-text {
+    font-size: 300%;
+    min-width: 50rem;
+    min-height: 25rem;
+    padding-top: 5px;
+    padding-left: 5px;
+    top: 10rem;
+    left: 6rem;
+    display: inline;
+  }
+
+  #join-button button {
+    font-size: 250%;
+    padding: 0.5em 0.3em;
+    max-width: 30rem;
+    min-height: 3rem;
+    bottom: 13rem;
+    right: 6rem;
+  }
+
+  #about-us-heading {
+    font-size: 400%;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #left-about {
+    font-size: 140%;
+    max-width: 35rem;
+    min-height: 5rem;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 8em;
+  }
+
+  #about-wrapper {
+    margin: 0 0 2em 0;
+  }
+
+  #about-images-outer img {
+    max-width: 30rem;
+  }
+
+  .plan-card ul {
+    font-size: 20px;
+  }
+}
+/* For medium screen sizes */
+@media screen and (max-width: 950px) {
+  #join-button button {
+    font-size: 120%;
+    padding: 0.2em;
+  }
+
+  #about-us {
+    min-height: 700px;
+    width: 100%;
+    background-color: #0f0f0f;
+  }
+
+  #about-us-heading {
+    font-size: 200%;
+    padding-top: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+  #left-about {
+    font-size: 120%;
+    max-width: 25rem;
+    min-height: 8rem;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 4em;
+  }
+
+  #about-wrapper {
+    min-height: 100%;
+  }
+
+  #about-images-outer img {
+    max-width: 20rem;
+  }
+}
+/* For tablet screen sizes */
+@media screen and (max-width: 768px) {
+  #cover-text {
+    font-size: 150%;
+    max-width: 22rem;
+    height: 2rem;
+    padding-top: 5px;
+    padding-left: 5px;
+    bottom: 16rem;
+    left: 2rem;
+  }
+
+  #join-button button {
+    font-size: 100%;
+    padding: 0.2em;
+  }
+
+  #about-us {
+    min-height: 700px;
+    width: 100%;
+    background-color: #0f0f0f;
+  }
+
+  #about-us-heading {
+    font-size: 200%;
+    padding-top: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+  #about-wrapper {
+    max-width: 100%;
+    padding: 1em 2em 1em 2em;
+    display: inline-block;
+  }
+
+  #left-about {
+    text-align: center;
+    font-size: 110%;
+    margin: 0 6em 2em 6em;
+    max-width: 30rem;
+    min-height: 8rem;
+  }
+
+  #about-images-outer {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-images-outer img {
+    max-width: 25rem;
+  }
+
+  #join-section h2 {
+    font-size: 250%;
+  }
+
+  .thank-you-card h3 {
+    font-size: 35px;
+    padding: 0.2em;
+  }
+
+  .thank-you-card .close {
+    right: 0.4em;
+    top: 0.4;
+    font-size: 20px;
+  }
+
+  #content {
+    font-size: 20px;
+  }
+
+  .social-links-2 i {
+    font-size: 200%;
+  }
+}
+/* For mobile screen sizes */
+@media screen and (max-width: 600px) {
+  header {
+    min-height: 75px;
+    max-width: 100%;
+    background-color: #0f0f0f;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  #logo {
+    font-size: 200%;
+    margin: 0 0 0.2em 0;
+    float: unset;
+    padding: 0.2em;
+  }
+
+  #menu {
+    min-height: 1em;
+    font-size: 120%;
+    letter-spacing: 2px;
+    float: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+  }
+
+  #menu li {
+    list-style-type: none;
+    margin: 0 0.8em 0 0.8em;
+  }
+
+  #cover-text {
+    font-size: 135%;
+    max-width: 25rem;
+    min-height: 1rem;
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    bottom: 18rem;
+    left: 1rem;
+  }
+
+  #join-button button {
+    font-size: 150%;
+    padding: 0.5em 0.3em;
+    max-width: 20rem;
+    min-height: 3rem;
+    bottom: 2em;
+    left: 2.2em;
+  }
+
+  #about-us {
+    min-height: 700px;
+    width: 100%;
+    background-color: #0f0f0f;
+  }
+
+  #about-us-heading {
+    font-size: 200%;
+    padding-top: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+  #about-wrapper {
+    max-width: 100%;
+    padding: 1em 0.5em 1em 0.5em;
+    display: inline-block;
+  }
+
+  #left-about {
+    text-align: center;
+    font-size: 110%;
+    margin: 0 1em 2em 1em;
+    max-width: 30rem;
+    min-height: 8rem;
+  }
+
+  #about-images-outer {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-images-outer img {
+    width: 16em;
+    height: 10em;
+  }
+
+  #join-section {
+    min-height: 600px;
+    max-width: 100%;
+    padding: 1em 0.2em 3em 0.2em;
+  }
+
+  #join-section h2 {
+    font-size: 200%;
+    margin-bottom: 0.05em;
+  }
+
+  #plans-wrapper {
+    max-width: 100%;
+    min-height: 5em;
+    display: inline-block;
+    padding: 0.2em;
+    margin-top: 1em;
+  }
+
+  .plan-card {
+    width: auto;
+    min-height: 5em;
+    padding: 0.5em 0 0 0;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .plan-card h3 {
+    border-bottom: 2px solid #d0dad4;
+    padding-bottom: 3px;
+  }
+
+  .plan-card ul {
     padding: 1.5em 1.5em 0 1.5em;
     font-size: 15px;
     text-align: left;
     line-height: 1.5em;
-}
+  }
 
-.plan-card h4 {
+  .plan-card h4 {
     padding: 1em;
-}
-/* Join form */
-form {
-    max-width: 80%;
-    min-height: 10rem;
-    margin: 4em 5em 0 5em;
-    padding: 0 2em 1.5em 1.5em;
-    background-color: #0f0f0f;
-    border-radius: 1em;
-}
+  }
 
- #main-input {
+  form {
+    max-width: 100%;
+    min-height: 12rem;
+    margin: 2em 0 0 0;
+    padding: 2em;
+    background-color: #0f0f0f;
+  }
+
+  #main-input {
     max-width: 100%;
     min-height: 4em;
     display: block;
- }
+  }
 
-.text-input {
-    background: transparent;
+  #input-label {
+    margin-right: 2em;
+  }
+
+  .text-input {
     width: 100%;
     min-height: 1.2em;
     margin: 1em 0;
-    border: 1px solid #d0dad4;
-    border-radius: 5px;
-    color: #d0dad4;
-    padding: 0.3em;
-}
+    padding: 0.2em 0.3em;
+  }
 
-.text-input:focus {
-   outline: 1px solid #dc4d40;
-}
-
-.text-input:hover {
-    border:1px solid #dc4d40;
-}
-
-#email {
+  #email {
     width: 100%;
-}
+  }
 
-#choose-plan {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-}
+  #choose-plan {
+    display: block;
+  }
 
-.plan-input {
-    margin: 10px 5px;
-    accent-color: #dc4d40;
-}
+  .plan-input {
+    margin: 0.5em 0.2em;
+  }
 
-form h4 {
-    margin-right: 10px;
-}
+  form h4 {
+    font-size: 16px;
+    margin-right: 1.2em;
+  }
 
-#form-join-button {
+  #form-join-button {
     width: fit-content;
     height: auto;
-    background-color: #d0dad4;
-    font-size: 22px;
+    font-size: 12px;
     padding: 3px 15px;
-    border-radius: 30px;
-    color: #0f0f0f;
-    text-decoration: none;
-}
+  }
 
-#form-join-button:hover {
-    background-color: #dc4d40;
-    color: #d0dad4;
-}
-/* Contact us section */
-#contact-us {
-    max-width: 100%;
-    height: 20rem;
-}
+  #contact-us {
+    max-height: 200px;
+  }
 
-#contact-info > h2 {
+  #contact-info > h2 {
+    font-size: 110%;
     margin-bottom: 0.3em;
-}
+  }
 
-#contact-info > p {
-    margin-bottom: 0.2em;
-}
+  #contact-info > h4 {
+    display: block;
+    font-size: 80%;
+    margin-right: 0.2em;
+    line-height: 1.8em;
+  }
 
-#contact-info {
-    width: fit-content;
-    height: auto;
-    padding: 1em;
-    margin-top: 2em;
-    background-color: rgba(15, 15, 15, 0.8);
-    border-radius: 4%;
-    position: absolute;
-    right: 5em;
-}
+  #contact-info > p {
+    display: inline;
+    font-size: 100%;
+  }
 
-#map {
-    overflow: hidden;
-}
-
-#map iframe {
-    min-height: 20em;
-    width: 100%;
-}
-/* Footer */
-footer {
+  #contact-info {
     max-width: 100%;
-    min-height: 75px;
-    background-color: #0f0f0f;
-}
-#footer-logo {
-    float: left;
-    text-transform: uppercase;
-    color: #d0dad4;
-    margin: 1em;
-}
+    max-height: 150px;
+    padding: 0.6em;
+    margin-top: 0.5em;
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: unset;
+    display: block;
+    position: static;
+  }
 
-.social-links > li {
+  #map {
+    display: none;
+  }
+
+  .social-links > li {
     display: block;
     float: right;
-    margin: 1em 2em 0 0;
-}
+    margin: 1.3em 1em 0 0;
+  }
 
-.social-links i {
-    font-size: 250%;
-    color: #d0dad4;
-}
+  .social-links i {
+    font-size: 200%;
+  }
 
-.social-links i:hover {
-    color: #dc4d40;
-}
-/* Thank You Page */
-
-#thank-you-page {
-    width: 100%;
-    max-height: 100%;
-    min-height: 500px;
-    background: url(../images/journey.webp) no-repeat center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.thank-you-card {
-    width: 50%;
-    max-height: 50%;
+  .thank-you-card {
     padding: 2em;
-    border-radius: 20px;
-    background-color: #0f0f0f;
-    border: 0.3em solid #dc4d40;
-    position: relative;
-}
+  }
 
-.thank-you-card h3 {
-    width: 100%;
-    font-size: 40px;
+  .thank-you-card h3 {
+    font-size: 26px;
     text-align: center;
-    padding: 0.5em;
-    margin-bottom: 0.5em;
-}
+    padding: 0;
+  }
 
-.thank-you-card .close {
-    position: absolute;
-    right: 0.5em;
-    top: 0.2em;
-    font-size: 25px;
-    text-decoration: none;
-    color: #d0dad4;
-}
+  .thank-you-card .close {
+    right: 0.4em;
+    top: 1;
+    font-size: 18px;
+  }
 
-.close:hover {
-    color: #dc4d40;
-}
+  #content {
+    font-size: 15px;
+  }
 
-#content {
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
-}
-
-.social-links-2 {
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    color: #d0dad4;
-    list-style: none;
-    margin: 0.5em 0 0 0;
-}
-
-.social-links-2 > li {
-    padding: 1em;
-}
-
-.social-links-2 i {
-    font-size: 250%;
-    color: #d0dad4;
-}
-/* Media queries */
-/* For largest screen sizes */
-@media screen and (min-width: 1441px) {
-    #home {
-        min-height: 600px;
-        max-width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-    #hero-image {
-        width: 100%;
-        min-height: 600px;
-        background: url(../images/hero-image.webp) no-repeat center center;
-        background-size: cover;
-    }
-
-    #menu {
-        font-size: 140%;
-    }
-
-    #cover-text {
-        font-size: 350%;
-        min-width: 50rem;
-        min-height: 25rem;
-        padding-top: 5px;
-        padding-left: 5px;
-        top: 10rem;
-        left: 6rem;
-        display: inline;
-    }
-
-    #join-button button {
-        font-size: 250%;
-        padding: 0.5em 0.3em;
-        max-width: 30rem;
-        min-height: 3rem;
-        bottom: 13rem;
-        right: 6rem;
-    }
-
-    #about-us {
-        min-height: 700px;
-        width: 100%;
-    }
-
-    #about-us-heading {
-        font-size: 400%;
-        padding-top: 0.5em; 
-        margin-bottom: 0.5em;
-    }
-
-    #left-about {
-        font-size: 180%;
-        max-width: 70rem;
-        min-height: 5rem; 
-        margin-top: 1em;
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-bottom: 1em;
-        position: relative;
-    }
-    
-    #about-images-outer {
-        margin: 0 0 0 3em;
-    }
-    
-    #about-images-outer img {
-        max-width: 40rem;
-    }
-
-    #join-section {
-        max-height: 1000px;
-    }
-
-    #join-section h2 {
-        font-size: 400%;
-        padding: 20px;
-        margin-bottom: 10px;
-    }
-
-    #plans-wrapper {
-        max-width: 100%;
-        min-height: 18em; 
-        display: flex;
-        justify-content: center;
-        padding: 0.5em;
-        margin-top: 1em;
-    }
-    
-    .plan-card {
-        width: 40em;
-        min-height: 16em;
-        margin: 0 10px;
-        padding: 0.5em 0 0 0;
-        text-align: center;
-        border-radius: 20px;
-        box-sizing: border-box;
-    }
-    
-    .plan-card h3 {
-        border-bottom: 2px solid #d0dad4;
-        padding-bottom: 3px;
-    }
-    
-    .plan-card ul{
-        padding: 1.5em 1.5em 0 1.5em;
-        font-size: 20px;
-        text-align: left;
-        line-height: 1.5em;
-    }
-    
-    .plan-card h4 {
-        padding: 1em;
-    }
-
-    form {
-        margin: 4em 15em 0 15em;
-        padding: 0 2em 1em 1em;
-    }
-
-    #contact-us {
-        max-width: 100%;
-        height: 500px;
-    }
-
-    #contact-info > h2 {
-        font-size: 40px;
-        margin-bottom: 0.3em;
-    }
-    
-    #contact-info > h4 {
-        font-size: 30px;
-    }
-
-    #contact-info > p {
-        font-size: 25px;
-        margin-bottom: 0.2em;
-    }
-    
-    #contact-info {
-        width: fit-content;
-        height: auto;
-        padding: 1em;
-        margin-top: 3em;
-        background-color: rgba(15, 15, 15, 0.8);
-        border-radius: 4%;
-        position: absolute;
-        right: 10em; 
-    }
-    
-    #map {
-        overflow: hidden;
-    }
-    
-    #map iframe {
-        min-height: 500px;
-        width: 100%;
-    }
-}
-/* For large screen sizes */
-@media screen and (min-width: 1250px) and (max-width: 1440px) {
-
-    #home {
-        min-height: 600px;
-        max-width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-    #hero-image {
-        width: 100%;
-        min-height: 600px;
-        background: url(../images/hero-image.webp) no-repeat center center;
-        background-size: cover;
-    }
-
-    #menu {
-        font-size: 140%;
-    }
-
-    #cover-text {
-        font-size: 300%;
-        min-width: 50rem;
-        min-height: 25rem;
-        padding-top: 5px;
-        padding-left: 5px;
-        top: 10rem;
-        left: 6rem;
-        display: inline;
-    }
-
-    #join-button button {
-        font-size: 250%;
-        padding: 0.5em 0.3em;
-        max-width: 30rem;
-        min-height: 3rem;
-        bottom: 13rem;
-        right: 6rem;
-    }
-
-    #about-us-heading {
-        font-size: 400%;
-        padding-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
-
-    #left-about {
-        font-size: 140%;
-        max-width: 35rem;
-        min-height: 5rem;
-        margin-top: 2em;
-        margin-left: 3em;
-        margin-right: 8em;
-    }
-    
-    #about-wrapper {
-        margin: 0 0 2em 0;
-    }
-    
-    #about-images-outer img {
-        max-width: 30rem;
-    }
-
-    .plan-card ul{
-        font-size: 20px;
-    }
-}
-/* For medium screen sizes */
-@media screen and (max-width: 950px) {
-    #join-button button {
-        font-size: 120%;
-        padding: 0.2em;
-    }
-
-    #about-us {
-        min-height: 700px;
-        width: 100%;
-        background-color: #0f0f0f;
-    }
-
-    #about-us-heading {
-        font-size: 200%;
-        padding-top: 0.5em;
-        margin-bottom: 0.3em;
-    }
-
-    #left-about {
-        font-size: 120%;
-        max-width: 25rem;
-        min-height: 8rem; 
-        margin-top: 2em;
-        margin-left: 3em;
-        margin-right: 4em;
-    }
-    
-    #about-wrapper {
-        min-height: 100%;
-    }
-    
-    #about-images-outer img {
-        max-width: 20rem;
-    }
-}
-/* For tablet screen sizes */
-@media screen and (max-width: 768px) {
-    #cover-text {
-        font-size: 150%;
-        max-width: 22rem;
-        height: 2rem;
-        padding-top: 5px;
-        padding-left: 5px;
-        bottom: 16rem;
-        left: 2rem;
-    }
-
-    #join-button button {
-        font-size: 100%;
-        padding: 0.2em;
-    }
-
-    #about-us {
-        min-height: 700px;
-        width: 100%;
-        background-color: #0f0f0f;
-    }
-
-    #about-us-heading {
-        font-size: 200%;
-        padding-top: 0.5em;
-        margin-bottom: 0.3em;
-    }
-
-    #about-wrapper {
-    max-width: 100%;
-    padding: 1em 2em 1em 2em;
-    display: inline-block;
-    }
-
-    #left-about {
-        text-align: center;
-        font-size: 110%;
-        margin: 0 6em 2em 6em;
-        max-width: 30rem;
-        min-height: 8rem; 
-    }
-    
-    #about-images-outer {
-        width: 100%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #about-images-outer img {
-        max-width: 25rem;
-    }
-
-    #join-section h2 {
-        font-size: 250%;
-    }
-
-    .thank-you-card h3 {
-        font-size: 35px;
-        padding: 0.2em;
-    }
-    
-    .thank-you-card .close {
-        right: 0.4em;
-        top: 0.4;
-        font-size: 20px;
-    }
-    
-    #content {
-        font-size: 20px;
-    }
-    
-    .social-links-2 i {
-        font-size: 200%;
-    }
-}
-/* For mobile screen sizes */
-@media screen and (max-width: 600px) {
-    header {
-        min-height: 75px;
-        max-width: 100%;
-        background-color: #0f0f0f;
-        position: fixed;
-        z-index: 999;
-        text-align: center;
-    }
-
-    header a {
-        text-decoration: none;
-    }
-    
-    #logo {
-        font-size: 200%;
-        margin: 0 0 0.2em 0;
-        float: unset;
-        padding: 0.2em;
-    }
-
-    #menu {
-        min-height: 1em;
-        font-size: 120%;
-        letter-spacing: 2px;
-        float: none;
-        display: flex;
-        justify-content: center;
-        padding: 0.5em;
-    }
-    
-    #menu li {
-        list-style-type: none;
-        margin: 0 0.8em 0 0.8em;
-    }
-
-    #cover-text {
-        font-size: 135%;
-        max-width: 25rem;
-        min-height: 1rem;
-        padding-top: 0.2em;
-        padding-left: 0.2em;
-        bottom: 18rem;
-        left: 1rem;
-    }
-
-    #join-button button {
-        font-size: 150%;
-        padding: 0.5em 0.3em;
-        max-width: 20rem;
-        min-height: 3rem;
-        bottom: 2em;
-        left: 2.2em;
-    }
-
-    #about-us {
-        min-height: 700px;
-        width: 100%;
-        background-color: #0f0f0f;
-    }
-
-    #about-us-heading {
-        font-size: 200%;
-        padding-top: 0.5em;
-        margin-bottom: 0.3em;
-    }
-
-    #about-wrapper {
-    max-width: 100%;
-    padding: 1em 0.5em 1em 0.5em;
-    display: inline-block;
-    }
-
-    #left-about {
-        text-align: center;
-        font-size: 110%;
-        margin: 0 1em 2em 1em;
-        max-width: 30rem;
-        min-height: 8rem; 
-    }
-    
-    #about-images-outer {
-        width: 100%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #about-images-outer img {
-        width: 16em;
-        height: 10em;
-    }
-
-    #join-section {
-        min-height: 600px;
-        max-width: 100%;
-        padding: 1em 0.2em 3em 0.2em;
-    }
-
-    #join-section h2 {
-        font-size: 200%;
-        margin-bottom: 0.05em;
-    }
-
-    #plans-wrapper {
-        max-width: 100%;
-        min-height: 5em;
-        display: inline-block;
-        padding: 0.2em;
-        margin-top: 1em;
-    }
-    
-    .plan-card {
-        width: auto;
-        min-height: 5em; 
-        padding: 0.5em 0 0 0;
-        text-align: center;
-        margin-bottom: 2em;
-    }
-    
-    .plan-card h3 {
-        border-bottom: 2px solid #d0dad4;
-        padding-bottom: 3px;
-    }
-    
-    .plan-card ul{
-        padding: 1.5em 1.5em 0 1.5em;
-        font-size: 15px;
-        text-align: left;
-        line-height: 1.5em;
-    }
-    
-    .plan-card h4 {
-        padding: 1em;
-    }
-
-    form {
-        max-width: 100%;
-        min-height: 12rem;
-        margin: 2em 0 0 0;
-        padding: 2em;
-        background-color: #0f0f0f;
-    }
-    
-     #main-input {
-        max-width: 100%;
-        min-height: 4em;
-        display: block;
-     }
-
-     #input-label {
-        margin-right: 2em;
-     }
-    
-    .text-input {
-        width: 100%;
-        min-height: 1.2em;
-        margin: 1em 0;
-        padding: 0.2em 0.3em;
-    }
-    
-    #email {
-        width: 100%;
-    }
-    
-    #choose-plan {
-        display: block;
-    }
-    
-    .plan-input {
-        margin: 0.5em 0.2em;
-    }
-    
-    form h4 {
-        font-size: 16px;
-        margin-right: 1.2em;
-    }
-    
-    #form-join-button {
-        width: fit-content;
-        height: auto;
-        font-size: 12px;
-        padding: 3px 15px;
-    }
-
-    #contact-us {
-        max-height: 200px;
-    }
-
-    #contact-info > h2 {
-        font-size: 110%;
-        margin-bottom: 0.3em;
-    }
-
-    #contact-info > h4 {
-        display: block;
-        font-size: 80%;
-        margin-right: 0.2em;
-        line-height: 1.8em;
-    }
-    
-    #contact-info> p {
-        display: inline;
-        font-size: 100%;
-    }
-    
-    #contact-info {
-        max-width: 100%;
-        max-height: 150px;
-        padding: 0.6em;
-        margin-top: 0.5em;
-        background-color: rgba(15, 15, 15, 0.8);
-        border-radius: unset;
-        display: block;
-        position: static;
-    }
-
-    #map {
-        display: none;
-    }
-
-    .social-links > li {
-        display: block;
-        float: right;
-        margin: 1.3em 1em 0 0;
-    }
-
-    .social-links i {
-        font-size: 200%;
-    }
-
-    .thank-you-card {
-        padding: 2em;
-    }
-
-    .thank-you-card h3 {
-        font-size: 26px;
-        text-align: center;
-        padding: 0;
-    }
-    
-    .thank-you-card .close {
-        right: 0.4em;
-        top: 1;
-        font-size: 18px;
-    }
-    
-    #content {
-        font-size: 15px;
-    }
-    
-    .social-links-2 i {
-        font-size: 200%;
-    }
+  .social-links-2 i {
+    font-size: 200%;
+  }
 }
