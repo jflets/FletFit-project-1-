@@ -132,7 +132,7 @@ Throughout coding this site I kept accessibility in mind, to ensure that the web
 - Using descriptive aria labels for all links.
 - Providing information for screen readers when using icons - such as footer icons.
 
-When running the lighthouse accessibility test my score was reduced due to having not enough contrast in my hero join button, but i feel that button is well defined and easy to read. My score was also reduced due to having to any h4 headings but these do not effect the usability or user experience. I am aware of these minor suggestions but feel that they are not necessary to this site.
+When running the lighthouse accessibility test, my score was reduced due to having not enough contrast in my hero join button, but i feel that button is well defined and easy to read. My score was also reduced due to having to many h4 headings but these do not effect the usability or user experience. I am aware of these minor suggestions but feel that they are not necessary to this site.
 
 # Technologies Used
 
