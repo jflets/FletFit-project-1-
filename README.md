@@ -198,11 +198,11 @@ Google Dev Tools - To test and trouble shoot features and solve issues withe the
 
   2. As a first-time visitor, I want to easily understand what FletFit offers, so that I can start achieving my fitness goals with expert guidance.
 
-  ![Plans](/assets/images/Plans.png)
+  ![Plans](/assets/images/plans.png)
 
   4. As a returning visitor, I want to get prompt and helpful assistance from FletFit, so that I can contact the gym easily with any questions.
 
-  ![Contact](/assets/images/Contact.png)
+  ![Contact](/assets/images/contact.png)
 
   5. As a first-time visitor, I want to be able to find the social links for FletFit easily. 
 
